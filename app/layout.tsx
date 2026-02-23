@@ -46,7 +46,7 @@ export default function RootLayout({
         </div>
         <footer>
           <div className="flex justify-center items-center p-5">
-            © 2026 Ichiban Sushi & Bar, Inc. All rights reserved.
+            <p>© {new Date().getFullYear()} Ichiban Sushi & Bar, Inc.</p> <p>All rights reserved.</p>
           </div>
         </footer>
       </body>

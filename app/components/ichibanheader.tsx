@@ -151,7 +151,7 @@ export default function IchibanHeader() {
                       <ul className="text-black dark:text-white flex flex-col ">
                         {categories.map((category) => (
                           <Link
-                            className="p-2 hover:bg-red-200 hover:text-black text-black block rounded-2xl"
+                            className="p-2 hover:bg-red-200 hover:text-black text-white block rounded-2xl"
                             key={category.id}
                             onClick={handleClose}
                             href={`${category.href}`}
