@@ -1,9 +1,8 @@
 
-
-export default function Amenities(s) {
+// export default function Amenities() {
     
 
-    return (
-        <div></div>
-    );
-}
+//     return (
+//         <div></div>
+//     );
+// }
