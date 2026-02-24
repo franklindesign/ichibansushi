@@ -12,6 +12,12 @@ const navigation = [
     name: "Visit our location",
     href: "https://share.google/nWhUabHJhAbkHuRDA",
   },
+  {name: "View our Instagram",
+    href: "https://www.instagram.com/ichibanscv"
+  },
+   {name: "Yelp Photo Gallery",
+    href: "https://www.yelp.com/biz_photos/ichiban-sushi-and-bar-santa-clarita"
+  },
   {
     name: "Order on Grubhub",
     href: "https://www.grubhub.com/restaurant/ichiban-sushi--bar-27625-shangri-la-dr-canyon-country/1437256",
@@ -24,27 +30,28 @@ const navigation = [
 
 const categories = [
   { id: 1, page: "Inari Sushi", href: "/menu/inari-sushi" },
-  { id: 2, page: "Fresh Rolls", href: "/menu/fresh-rolls" },
-  { id: 3, page: "Baked Rolls", href: "/menu/baked-rolls" },
-  { id: 4, page: "Tempura Rolls", href: "/menu/tempura-rolls" },
-  { id: 5, page: "Sushi Burritos", href: "/menu/sushi-burritos" },
-  { id: 6, page: "Regular Rolls", href: "/menu/regular-rolls" },
-  { id: 7, page: "Hand Rolls", href: "/menu/hand-rolls" },
-  { id: 8, page: "Nigiri Sushi", href: "/menu/nigiri-sushi" },
-  { id: 9, page: "Special Sushi", href: "/menu/special-sushi" },
-  { id: 10, page: "Sashimi", href: "/menu/sashimi" },
-  { id: 11, page: "Appetizers (cold)", href: "/menu/appetizers-cold" },
-  { id: 12, page: "Appetizers (warm)", href: "/menu/appetizers-warm" },
-  { id: 13, page: "Salad", href: "/menu/salad" },
-  { id: 14, page: "Soup and Noodles", href: "/menu/soup-noodles" },
-  { id: 15, page: "Entree", href: "/menu/entree" },
-  { id: 16, page: "Side Orders", href: "/menu/side-orders" },
-  { id: 17, page: "Bento Box", href: "/menu/bento-box" },
-  { id: 18, page: "Kid's Menu", href: "/menu/kids-menu" },
-  { id: 19, page: "Beverages", href: "/menu/beverages" },
-  { id: 20, page: "Sake & Soju", href: "/menu/sake-soju" },
-  { id: 21, page: "Beer & Wine", href: "/menu/beer-wine" },
-  { id: 22, page: "Dessert", href: "/menu/dessert" },
+  { id: 2, page: "Pocha Menu", href: "/menu/pocha" },
+  { id: 3, page: "Fresh Rolls", href: "/menu/fresh-rolls" },
+  { id: 4, page: "Baked Rolls", href: "/menu/baked-rolls" },
+  { id: 5, page: "Tempura Rolls", href: "/menu/tempura-rolls" },
+  { id: 6, page: "Sushi Burritos", href: "/menu/sushi-burritos" },
+  { id: 7, page: "Regular Rolls", href: "/menu/regular-rolls" },
+  { id: 8, page: "Hand Rolls", href: "/menu/hand-rolls" },
+  { id: 9, page: "Nigiri Sushi", href: "/menu/nigiri-sushi" },
+  { id: 10, page: "Special Sushi", href: "/menu/special-sushi" },
+  { id: 11, page: "Sashimi", href: "/menu/sashimi" },
+  { id: 12, page: "Appetizers (cold)", href: "/menu/appetizers-cold" },
+  { id: 13, page: "Appetizers (warm)", href: "/menu/appetizers-warm" },
+  { id: 14, page: "Salad", href: "/menu/salad" },
+  { id: 15, page: "Soup and Noodles", href: "/menu/soup-noodles" },
+  { id: 16, page: "Entree", href: "/menu/entree" },
+  { id: 17, page: "Side Orders", href: "/menu/side-orders" },
+  { id: 18, page: "Bento Box", href: "/menu/bento-box" },
+  { id: 19, page: "Kid's Menu", href: "/menu/kids-menu" },
+  { id: 20, page: "Beverages", href: "/menu/beverages" },
+  { id: 21, page: "Sake & Soju", href: "/menu/sake-soju" },
+  { id: 22, page: "Beer & Wine", href: "/menu/beer-wine" },
+  { id: 23, page: "Dessert", href: "/menu/dessert" },
 ];
 
 export default function IchibanHeader() {
@@ -76,7 +83,7 @@ export default function IchibanHeader() {
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(true)}
-                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black dark:text-gray-200"
+                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black dark:text-white"
               >
                 <span className="sr-only">Open main menu</span>
                 <Bars3Icon aria-hidden="true" className="size-6" />
@@ -88,6 +95,7 @@ export default function IchibanHeader() {
                 <a
                   key={item.name}
                   href={item.href}
+                  target="_blank"
                   className="text-sm/6 font-semibold dark:text-white text-black hover:text-black hover:bg-red-200 block rounded-2xl p-2"
                 >
                   {item.name}
@@ -110,7 +118,7 @@ export default function IchibanHeader() {
           onClose={setMobileMenuOpen}
           className="lg:hidden"
         >
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto dark:bg-zinc-900 bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto dark:bg-black bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Ichiban Sushi & Bar</span>

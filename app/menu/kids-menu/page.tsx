@@ -33,7 +33,7 @@ export default function KidsMenu() {
   return (
     <div>
       <p className="text-xl font-black m-2 pb-5">Kids Menu</p>
-      <div className="grid grid-cols-1 grid-rows-5 gap-4 w-auto lg:grid-cols-2">
+      <div className="grid grid-cols-1 grid-rows-2 gap-4 w-auto lg:grid-cols-2">
         {kidsMenu.map((item) => (
           <div key={item.id}>
             <Card

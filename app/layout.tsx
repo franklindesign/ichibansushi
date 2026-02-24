@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/app/components/theme-provider";
 import IchibanHeader from "@/app/components/ichibanheader";
+import Footer from "./components/footer";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,11 +46,7 @@ export default function RootLayout({
             {children}
           </ThemeProvider>
         </div>
-        <footer>
-          <div className="flex justify-center items-center p-5">
-            <p>© {new Date().getFullYear()} Ichiban Sushi & Bar, Inc.</p> <p>All rights reserved.</p>
-          </div>
-        </footer>
+       <Footer></Footer>
       </body>
     </html>
   );

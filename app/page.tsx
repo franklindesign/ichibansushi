@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-zinc-950 relative">
+    <div className="bg-black relative">
       <Image
         alt="bg"
         src={bgimage}
@@ -34,7 +34,7 @@ export default function Home() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 href="/menu"
-                className=" bg-zinc-950 px-3.5 py-2.5 text-xl font-semibold text-white hover:text-black shadow-xs hover:bg-red-200 rounded-2xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className=" bg-black px-3.5 py-2.5 text-xl font-semibold text-white hover:text-black shadow-xs hover:bg-red-200 rounded-2xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
                 View Our Menu<span aria-hidden="true">&rarr;</span>
               </Link>

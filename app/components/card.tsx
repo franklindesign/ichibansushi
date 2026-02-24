@@ -18,8 +18,8 @@ export default function Card({
           <div className="text-sm font-semibold  text-red-300 uppercase">
             {itemName.text}
           </div>
-          <p className="lg:mt-2 lg:pl-1 text-black text-sm lg:text-lg">{itemDescription.text}</p>
           <p className="lg:pl-1 mt-2 text-black text-xs lg:text-sm">${itemPrice}</p>
+          <p className="lg:mt-2 lg:pl-1 text-black text-sm lg:text-lg">{itemDescription.text}</p>
         </div>
         <div className="flex justify-end">
           <img

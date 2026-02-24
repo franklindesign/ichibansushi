@@ -58,7 +58,7 @@ const specialSushi = [
   
 ];
 
-export default function SideOrders() {
+export default function SpecialSushi() {
    return (
       <div>
         <p className="text-xl font-black m-2 pb-5">Special Sushi</p>
