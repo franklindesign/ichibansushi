@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { useState } from "react";
 import logo from "@/public/images/logo.svg";
+import icon from "@/public/images/icon.svg";
 import ThemeToggler from "./theme-toggler";
 
 const navigation = [
@@ -12,11 +13,10 @@ const navigation = [
     name: "Visit our location",
     href: "https://share.google/nWhUabHJhAbkHuRDA",
   },
-  {name: "View our Instagram",
-    href: "https://www.instagram.com/ichibanscv"
-  },
-   {name: "Yelp Photo Gallery",
-    href: "https://www.yelp.com/biz_photos/ichiban-sushi-and-bar-santa-clarita"
+  { name: "View our Instagram", href: "https://www.instagram.com/ichibanscv" },
+  {
+    name: "Yelp Photo Gallery",
+    href: "https://www.yelp.com/biz_photos/ichiban-sushi-and-bar-santa-clarita",
   },
   {
     name: "Order on Grubhub",
@@ -72,11 +72,22 @@ export default function IchibanHeader() {
             <div className="flex lg:flex-1">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Ichiban Sushi & Bar</span>
-                <Image
-                  alt="Ichiban Sushi & Bar"
-                  src={logo}
-                  className="h-8 w-auto dark:invert"
-                />
+                <div className="flex">
+                  <div>
+                    <Image
+                      alt="Ichiban Sushi & Bar logo"
+                      src={logo}
+                      className="h-10 w-auto dark:invert"
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      alt="Ichiban Sushi & Bar icon"
+                      src={icon}
+                      className="h-12 -mt-2 pl-1  w-auto"
+                    />
+                  </div>
+                </div>
               </Link>
             </div>
             <div className="flex lg:hidden">
@@ -122,11 +133,22 @@ export default function IchibanHeader() {
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Ichiban Sushi & Bar</span>
-                <Image
-                  alt="Ichiban Sushi & Bar"
-                  src={logo}
-                  className="h-8 w-auto dark:invert"
-                />
+                <div className="flex">
+                  <div>
+                    <Image
+                      alt="Ichiban Sushi & Bar logo"
+                      src={logo}
+                      className="h-10 w-auto dark:invert"
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      alt="Ichiban Sushi & Bar icon"
+                      src={icon}
+                      className="h-12 -mt-2 pl-1  w-auto"
+                    />
+                  </div>
+                </div>
               </Link>
               <button
                 type="button"

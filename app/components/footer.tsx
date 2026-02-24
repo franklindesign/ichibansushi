@@ -1,7 +1,31 @@
+"use client";
+
+import Image from "next/image";
+
 export default function Footer() {
   return (
-    <footer>
+    <footer className="pt-4">
       <div className="flex flex-col justify-center items-center p-5">
+        <div className="flex pb-5 gap-10">
+          <div>
+             <a href="https://www.grubhub.com/restaurant/ichiban-sushi--bar-27625-shangri-la-dr-canyon-country/1437256" target="_blank"> <Image
+              src="/static/grubhub_logo.png"
+              alt="grubhub logo"
+              height={100}
+              width={100}
+            ></Image></a>
+            
+          </div>
+          <div>
+            <a href="https://www.ubereats.com/store/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw" target="_blank">   <Image
+              src="/static/ubereats_logo.png"
+              alt="uber logo"
+              height={100}
+              width={100}
+            ></Image></a>
+          
+          </div>
+        </div>
         <div>
           <p className="text-2xl"> Contact: </p>
         </div>
@@ -23,7 +47,9 @@ export default function Footer() {
           <p>Fri-Sat: 12 PM to 10:30 PM</p>
         </div>
         <div className="py-2">
-          <div className="text-xs">© {new Date().getFullYear()} Ichiban Sushi & Bar, Inc.</div>
+          <div className="text-xs">
+            © {new Date().getFullYear()} Ichiban Sushi & Bar, Inc.
+          </div>
         </div>
       </div>
     </footer>
