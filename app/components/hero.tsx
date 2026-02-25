@@ -4,7 +4,7 @@ export default function Hero() {
       <img
         style={{ width: "100%" }}
         src="../static/heroes/hero.jpg"
-        alt="Our oyster bar is now open!"
+        alt="hero image"
       ></img>
     </div>
   );

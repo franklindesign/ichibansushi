@@ -16,7 +16,7 @@ const sushis = [
     name: "Crab (sushi)",
     description: "2 pieces",
     price: "4.50",
-    image: NoImage,
+    image: "../static/items/nigiri/crab-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const sushis = [
     name: "Escolar (ono sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/nigiri/escolar-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -32,7 +32,7 @@ const sushis = [
     name: "Egg (tamago sushi)",
     description: "2 pieces",
     price: "4.50",
-    image: NoImage,
+    image: "../static/items/nigiri/tamago-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -40,7 +40,7 @@ const sushis = [
     name: "Fresh Water Eel (unagi sushi)",
     description: "2 pieces",
     price: "6.95",
-    image: NoImage,
+    image: "../static/items/nigiri/unagi-nigiri.jpg",
     largeImage: "",
   },
 
@@ -57,7 +57,7 @@ const sushis = [
     name: "Mackerel (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/nigiri/mackerel-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -65,7 +65,7 @@ const sushis = [
     name: "Octopus (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/nigiri/octopus-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -177,7 +177,7 @@ const sushis = [
     name: "Chu-toro (medium fatty tuna sushi)",
     description: "2 pieces",
     price: "11.95",
-    image: NoImage,
+    image: "../static/items/nigiri/chutoro-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -185,7 +185,7 @@ const sushis = [
     name: "Otoro (high fatty tuna sushi)",
     description: "2 pieces",
     price: "13.95",
-    image: NoImage,
+    image: "../static/items/nigiri/otoro-nigiri.jpg",
     largeImage: "",
   },
 ];

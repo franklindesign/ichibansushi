@@ -84,7 +84,7 @@ export default function IchibanHeader() {
                     <Image
                       alt="Ichiban Sushi & Bar icon"
                       src={icon}
-                      className="h-12 -mt-2 pl-1  w-auto"
+                      className="h-12 -mt-2 lg:pl-1  w-auto"
                     />
                   </div>
                 </div>

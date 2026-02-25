@@ -40,7 +40,7 @@ const coldAppetizers = [
     name: "Fresh Oyster (6 pieces) ",
     description: "6 pieces of fresh oyster",
     price: 16,
-    image: "../static/items/coldAppetizers/FreshOyster.jpg",
+    image: "../static/items/coldAppetizers/FreshOysters.jpg",
     largeImage: "",
   },
   {
