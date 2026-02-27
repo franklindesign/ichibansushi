@@ -1,11 +1,10 @@
 import Card from "@/app/components/card";
 
 const bakedRolls = [
- 
   {
     id: 1,
     name: "Baked Crab Roll",
-    description: "In: crabmeat, avocado. Out: baked snow crab.",
+    description: " crabmeat, avocado.  baked snow crab.",
     price: 17.95,
     image: "../static/items/bakedRolls/BakedCrabRoll.jpg",
     largeImage: "",
@@ -13,39 +12,37 @@ const bakedRolls = [
   {
     id: 2,
     name: "Baked Salmon Roll",
-    description: "In: crabmeat, avocado. Out: baked salmon. Sauce: eel sauce.",
+    description: " crabmeat, avocado.  baked salmon.  eel sauce.",
     price: 15.95,
     image: "../static/items/bakedRolls/BakedSalmonRoll.jpg",
     largeImage: "",
   },
-   {
+  {
     id: 3,
     name: "BSCR",
-    description:
-      "In: crabmeat, avocado, Out: baked scallop, masago, Sauce: eel sauce",
+    description: " crabmeat, avocado,  baked scallop, masago,  eel sauce",
     price: 14.95,
     image: "../static/items/bakedRolls/BSCRoll.jpg",
   },
   {
     id: 4,
     name: "Caterpillar Roll",
-    description: "In: eel, cucumber. Out: avocado. Sauce: eel sauce.",
+    description: " eel, cucumber.  avocado.  eel sauce.",
     price: 14.95,
     image: " ../static/items/bakedRolls/CaterpillarRoll.jpg",
     largeImage: "",
   },
-   {
+  {
     id: 5,
     name: "Lobster Roll",
-    description:
-      "In: crabmeat, avocado. Out: baked lobster, masago. Sauce: lobster sauce.",
+    description: " crabmeat, avocado.  baked lobster, masago.  lobster sauce.",
     price: 18.95,
     image: "../static/items/bakedRolls/LobsterRoll.jpg",
   },
   {
     id: 6,
     name: "Snow Roll",
-    description: "In: crabmeat, avocado. Out: baked white fish, soy paper.",
+    description: " crabmeat, avocado.  baked white fish, soy paper.",
     price: 14.95,
     image: "../static/items/bakedRolls/SnowRoll.jpg",
     largeImage: "",
@@ -53,8 +50,7 @@ const bakedRolls = [
   {
     id: 7,
     name: "Sunset Roll",
-    description:
-      "In: crabmeat, avocado. Out: baked eel, avocado. Sauce: eel sauce.",
+    description: " crabmeat, avocado.  baked eel, avocado.  eel sauce.",
     price: 15.95,
     image: "../static/items/bakedRolls/SunsetRoll.jpg",
     largeImage: "",
@@ -63,7 +59,7 @@ const bakedRolls = [
     id: 8,
     name: "Volcano Roll",
     description:
-      "In: crabmeat, avocado. Out: baked scallop, shrimp, crab. Sauce: creamy sauce.",
+      " crabmeat, avocado.  baked scallop, shrimp, crab.  creamy sauce.",
     price: 14.95,
     image: "../static/items/bakedRolls/VolcanoRoll.jpg",
     largeImage: "",

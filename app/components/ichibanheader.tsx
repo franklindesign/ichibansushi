@@ -29,7 +29,7 @@ const navigation = [
 ];
 
 const categories = [
-  { id: 1, page: "Inari Sushi", href: "/menu/inari-sushi" },
+  { id: 1, page: "Inarizushi", href: "/menu/inarizushi" },
   { id: 2, page: "Pocha Menu", href: "/menu/pocha" },
   { id: 3, page: "Fresh Rolls", href: "/menu/fresh-rolls" },
   { id: 4, page: "Baked Rolls", href: "/menu/baked-rolls" },
@@ -145,7 +145,7 @@ export default function IchibanHeader() {
                     <Image
                       alt="Ichiban Sushi & Bar icon"
                       src={icon}
-                      className="h-12 -mt-2 pl-1  w-auto"
+                      className="h-12 -mt-2 lg:pl-1  w-auto"
                     />
                   </div>
                 </div>

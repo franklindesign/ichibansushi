@@ -5,25 +5,41 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="pt-4">
+       
       <div className="flex flex-col justify-center items-center p-5">
+        <div className="pb-12">
+        <p className="text-xs">
+          Note: Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs increases your risk for foodborne illness.
+        </p>
+      </div>
         <div className="flex pb-5 gap-10">
           <div>
-             <a href="https://www.grubhub.com/restaurant/ichiban-sushi--bar-27625-shangri-la-dr-canyon-country/1437256" target="_blank"> <Image
-              src="/static/grubhub_logo.png"
-              alt="grubhub logo"
-              height={100}
-              width={100}
-            ></Image></a>
-            
+            <a
+              href="https://www.grubhub.com/restaurant/ichiban-sushi--bar-27625-shangri-la-dr-canyon-country/1437256"
+              target="_blank"
+            >
+              {" "}
+              <Image
+                src="/static/grubhub_logo.png"
+                alt="grubhub logo"
+                height={100}
+                width={100}
+              ></Image>
+            </a>
           </div>
           <div>
-            <a href="https://www.ubereats.com/store/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw" target="_blank">   <Image
-              src="/static/ubereats_logo.png"
-              alt="uber logo"
-              height={100}
-              width={100}
-            ></Image></a>
-          
+            <a
+              href="https://www.ubereats.com/store/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw"
+              target="_blank"
+            >
+              {" "}
+              <Image
+                src="/static/ubereats_logo.png"
+                alt="uber logo"
+                height={100}
+                width={100}
+              ></Image>
+            </a>
           </div>
         </div>
         <div>

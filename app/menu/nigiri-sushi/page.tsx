@@ -8,7 +8,7 @@ const sushis = [
     name: "Albacore (sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/nigiri/albacore-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -73,7 +73,7 @@ const sushis = [
     name: "Red Clam (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/nigiri/redclam-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -81,7 +81,7 @@ const sushis = [
     name: "Salmon (sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/nigiri/salmon-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -89,7 +89,7 @@ const sushis = [
     name: "Salmon Egg (sushi)",
     description: "2 pieces",
     price: "7.95",
-    image: NoImage,
+    image: "../static/items/nigiri/salmonegg-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -145,7 +145,7 @@ const sushis = [
     name: "Uni (sea urchin sushi)",
     description: "2 pieces",
     price: "11.95",
-    image: NoImage,
+    image: "../static/items/nigiri/uni-nigiri.jpg",
     largeImage: "",
   },
   {

@@ -5,7 +5,7 @@ import Link from "next/link";
 const categories = [
   { id: 0, page: "Popular Items", href: "/menu/" },
   { id: 1, page: "Pocha Menu", href: "/menu/pocha" },
-  { id: 2, page: "Inari Sushi", href: "/menu/inari-sushi" },
+  { id: 2, page: "Inarizushi", href: "/menu/inarizushi" },
   { id: 3, page: "Fresh Rolls", href: "/menu/fresh-rolls" },
   { id: 4, page: "Baked Rolls", href: "/menu/baked-rolls" },
   { id: 5, page: "Tempura Rolls", href: "/menu/tempura-rolls" },

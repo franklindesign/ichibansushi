@@ -5,7 +5,7 @@ const freshRolls = [
   {
     id: 1,
     name: "Ichiban Roll",
-    description: "In: spicy tuna, shrimp, avocado. Out: tuna, blue crab, masago, green onions. Sauce: chili oil, and eel sauce.",
+    description: " spicy tuna, shrimp, avocado, tuna, blue crab, masago, green onions, chili oil, and eel sauce.",
     price: 19.95,
     image: "../static/items/freshRolls/IchibanRoll.jpg",
     largeImage: "",
@@ -13,7 +13,7 @@ const freshRolls = [
   {
     id: 2,
     name: "Love Roll",
-    description: "In: spicy yellowtail, cucumber, soy paper. Out: avocado, jalapeno, masago, green onions. Sauce: yuzu and chili oil",
+    description: " spicy yellowtail, cucumber, soy paper, avocado, jalapeno, masago, green onions, yuzu and chili oil",
     price: 18.95,
     image: "../static/items/freshRolls/LoveRoll.jpg",
     largeImage: "",
@@ -21,7 +21,7 @@ const freshRolls = [
   {
     id: 3,
     name: "Sakura Roll",
-    description: "In: salmon, yellowtail, white fish, tuna, crab, avocado. Out: soy paper wrap. Sauce: ponzu and house sauce.",
+    description: " salmon, yellowtail, white fish, tuna, crab, avocado.  soy paper wrap.  ponzu and house sauce.",
     price: 15.95,
     image: "../static/items/freshRolls/SakuraRoll.jpg",
     largeImage: "",
@@ -29,7 +29,7 @@ const freshRolls = [
   {
     id: 4,
     name: "Valentine Roll",
-    description: "In: crabmeat, shrimp, tuna, avocado. Out: soy paper wrap. Sauce: chili oil and eel sauce",
+    description: " crabmeat, shrimp, tuna, avocado.  soy paper wrap.  chili oil and eel sauce",
     price: 11.95,
     image: "../static/items/freshRolls/ValentineRoll.jpg",
     largeImage: "",
@@ -37,7 +37,7 @@ const freshRolls = [
   {
     id: 5,
     name: "Albacore Delight Roll",
-    description: "In: crabmeat, avocado. Out: albacore, red onions, green onions, masago. Sauce: ponzu sauce",
+    description: " crabmeat, avocado.  albacore, red onions, green onions, masago.  ponzu sauce",
     price: 16.95,
     image: "../static/items/freshRolls/AlbacoreDelightRoll.jpg",
     largeImage: "",
@@ -45,7 +45,7 @@ const freshRolls = [
   {
     id: 6,
     name: "Yellowtail Delight Roll",
-    description: "In: spicy tuna, cucumber. Out: yellowtail, jalapeno, red onions, masago. Sauce: ponzu.",
+    description: " spicy tuna, cucumber.  yellowtail, jalapeno, red onions, masago.  ponzu.",
     price: 18.95,
     image: "../static/items/freshRolls/YellowtailDelightRoll.jpg",
     largeImage: "",
@@ -53,7 +53,7 @@ const freshRolls = [
   {
     id: 7,
     name: "Aguachile Roll",
-    description: "In: spicy shrimp, avocado, cucumber. Out: shrimp on top. Sauce: aguachile sauce.",
+    description: " spicy shrimp, avocado, cucumber.  shrimp on top.  aguachile sauce.",
     price: 14.95,
     image: "../static/items/freshRolls/AguachileRoll.jpg",
     largeImage: "",
@@ -61,7 +61,7 @@ const freshRolls = [
   {
     id: 8,
     name: "911 Roll",
-    description: "In: spicy tuna, cucumber. Out: avocado. Sauce: chili oil, hot, and sweet sauce.",
+    description: " spicy tuna, cucumber.  avocado.  chili oil, hot, and sweet sauce.",
     price: 12.95,
     image: "../static/items/freshRolls/911Roll.jpg",
     largeImage: "",
@@ -69,7 +69,7 @@ const freshRolls = [
   {
     id: 9,
     name: "X Girl Friend Roll",
-    description: "In: spicy crabmeat. Out: tuna, salmon, yellowtail, green onion, masago. Sauce: eel sauce and chili oil",
+    description: " spicy crabmeat.  tuna, salmon, yellowtail, green onion, masago.  eel sauce and chili oil",
     price: 15.95,
     image: "../static/items/freshRolls/XGirlFriendRoll.jpg",
     largeImage: "",
@@ -77,7 +77,7 @@ const freshRolls = [
   {
     id: 10,
     name: "Cucumber Sashimi Roll",
-    description: "In: four kinds of fish, avocado. Out: cucumber wrap. Sauce: yuzu ponzu.",
+    description: " four kinds of fish, avocado.  cucumber wrap.  yuzu ponzu.",
     price: 15.95,
     image: "../static/items/freshRolls/CucumberSashimiRoll.jpg",
     largeImage: "",
@@ -85,7 +85,7 @@ const freshRolls = [
   {
     id: 11,
     name: "Sexy Salmon Roll",
-    description: "In: salmon, crabmeat, avocado. Out: cucumber wrap. Sauce: ponzu.",
+    description: " salmon, crabmeat, avocado.  cucumber wrap.  ponzu.",
     price: 15.95,
     image: "../static/items/freshRolls/SexySalmonRoll.jpg",
     largeImage: "",
@@ -93,7 +93,7 @@ const freshRolls = [
   {
     id: 12,
     name: "Spicy Albacore Crunch Roll",
-    description: "In: shrimp tempura, spicy crabmeat. Out: albacore, fried garlic, tempura crunch. Sauce: spicy ponzu.",
+    description: " shrimp tempura, spicy crabmeat.  albacore, fried garlic, tempura crunch.  spicy ponzu.",
     price: 17.95,
     image: "../static/items/freshRolls/SpicyAlbacoreCrunchRoll.jpg",
     largeImage: "",
@@ -101,7 +101,7 @@ const freshRolls = [
   {
     id: 13,
     name: "Red Dragon Roll",
-    description: "In: spicy crabmeat, fried jalapeno. Out: tuna, jalapeno. Sauce: spicy mayo, chili oil.",
+    description: " spicy crabmeat, fried jalapeno.  tuna, jalapeno.  spicy mayo, chili oil.",
     price: 16.95,
     image: "../static/items/freshRolls/RedDragonRoll.jpg",
     largeImage: "",
@@ -109,7 +109,7 @@ const freshRolls = [
   {
     id: 14,
     name: "Mango Tango Roll",
-    description: "In: shrimp tempura, cucumber, mango. Out: salmon, avocado. Sauce: lemon.",
+    description: " shrimp tempura, cucumber, mango.  salmon, avocado.  lemon.",
     price: 16.95,
     image: "../static/items/freshRolls/MangoTangoRoll.jpg",
     largeImage: "",
@@ -117,7 +117,7 @@ const freshRolls = [
   {
     id: 15,
     name: "Mango Mania Roll",
-    description: "In: mango, cucumber, avocado. Out: salmon, mango. Sauce: lemon sauce.",
+    description: " mango, cucumber, avocado.  salmon, mango.  lemon sauce.",
     price: 14.95,
     image: "../static/items/freshRolls/MangoManiaRoll.jpg",
     largeImage: "",
@@ -125,7 +125,7 @@ const freshRolls = [
   {
     id: 16,
     name: "Mexican Roll",
-    description: "In: spicy shrimp, crabmeat. Out: avocado. Sauce: spicy mayo and sriracha sauce.",
+    description: " spicy shrimp, crabmeat.  avocado.  spicy mayo and sriracha sauce.",
     price: 14.95,
     image: "../static/items/freshRolls/MexicanRoll.jpg",
     largeImage: "",
@@ -134,7 +134,7 @@ const freshRolls = [
   {
     id: 17,
     name: "Hawaiian Roll",
-    description: "In: spicy tuna, cucumber. Out: tuna, masago, green onions. Sauce: goma",
+    description: " spicy tuna, cucumber.  tuna, masago, green onions.  goma",
     price: 16.95,
     image: "../static/items/freshRolls/HawaiianRoll.jpg",
     largeImage: "",
@@ -142,7 +142,7 @@ const freshRolls = [
   {
     id: 18,
     name: "Alaskan Roll",
-    description: "In: spicy tuna, cucumber. Out:salmon. Sauce: goma ",
+    description: " spicy tuna, cucumber. salmon.  goma ",
     price: 16.95,
     image: "../static/items/freshRolls/AlaskanRoll.jpg",
     largeImage: "",
@@ -150,7 +150,7 @@ const freshRolls = [
   {
     id: 19,
     name: "Baja Roll",
-    description: "In: crabmeat, red onion, jalapeno. Out: avocado, jalapeno, cilantro. Sauce: garlic ponzu sauce.",
+    description: " crabmeat, red onion, jalapeno.  avocado, jalapeno, cilantro.  garlic ponzu sauce.",
     price: 14.95,
     image: "../static/items/freshRolls/bajaRoll.jpg",
     largeImage: "",
@@ -159,7 +159,7 @@ const freshRolls = [
   {
     id: 20,
     name: "Lemon Roll",
-    description: "In: crabmeat, avocado. Out: salmon, sliced lemon on top. Sauce: lemon sauce.",
+    description: " crabmeat, avocado.  salmon, sliced lemon on top.  lemon sauce.",
     price: 15.95,
     image: "../static/items/freshRolls/LemonRoll.jpg",
     largeImage: "",
@@ -167,7 +167,7 @@ const freshRolls = [
   {
     id: 21,
     name: "Elmo Roll",
-    description: "spicy shrimp, crab, avocado, soy paper. Out: seared cajun tuna, masago, green onions, crispy onions, Sauce: chili oil, spicy ponzu ",
+    description: "spicy shrimp, crab, avocado, soy paper.  seared cajun tuna, masago, green onions, crispy onions,  chili oil, spicy ponzu ",
     price: 18.95,
     image: "../static/items/freshRolls/ElmoRoll.jpg",
     largeImage: "",
@@ -175,7 +175,7 @@ const freshRolls = [
   {
     id: 22,
     name: "Rainbow Roll",
-    description: "In: crabmeat, avocado. Out: four kinds of fish and avocado",
+    description: " crabmeat, avocado.  four kinds of fish and avocado",
     price: 16.95,
     image: "../static/items/freshRolls/RainbowRoll.jpg",
     largeImage: "",
@@ -183,7 +183,7 @@ const freshRolls = [
   {
     id: 23,
     name: "Albacore Special Roll",
-    description: "In: crabmeat, avocado. Out: albacore, masago, microgreens mix. Sauce: truffle oil, garlic, chili oil, and ponzu.",
+    description: " crabmeat, avocado.  albacore, masago, microgreens mix.  truffle oil, garlic, chili oil, and ponzu.",
     price: 18.95,
     image: "../static/items/freshRolls/AlbacoreSpecial.jpg",
     largeImage: "",
@@ -191,7 +191,7 @@ const freshRolls = [
   {
     id: 24,
     name: "Black Mamba Roll",
-    description: "spicy octopus, cucumber. In: avocado, jalapeno, black tobiko on top. Sauce: yuzu, and chili oil.",
+    description: "spicy octopus, cucumber.  avocado, jalapeno, black tobiko on top.  yuzu, and chili oil.",
     price: 19.95,
     image: "../static/items/freshRolls/BlackMamba.jpg",
     largeImage: "",
