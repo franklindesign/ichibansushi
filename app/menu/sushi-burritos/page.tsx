@@ -6,7 +6,7 @@ const sushiBurritos = [
     id: 1,
     name: "Iron Man",
     description:
-      "inside: spicy tuna, shrimp tempura, avocado, special crab meat, jalapeno, green lettuce. outside: hot cheetos, chili oil, and spicy mayo",
+      "spicy tuna, shrimp tempura, avocado, special crab meat, jalapeno, green lettuce. hot cheetos, chili oil, and spicy mayo",
     price: 13.95,
     image: "../static/items/sushiBurritos/IronManBurrito.jpg",
     largeImage: "",
@@ -15,7 +15,7 @@ const sushiBurritos = [
     id: 2,
     name: "Spider Man",
     description:
-      "inside: salmon, spicy tuna, avocado. outside: crispy onion, masago, green onion, yuzu ponzu sauce",
+      "salmon, spicy tuna, avocado, crispy onion, masago, green onion, yuzu ponzu sauce",
     price: 13.95,
     image: "../static/items/sushiBurritos/SpiderManBurrito.jpg",
     largeImage: "",
@@ -24,7 +24,7 @@ const sushiBurritos = [
     id: 3,
     name: "Batman",
     description:
-      "inside: eel, crab meat, avocado, cucumber. outside: eel sauce.",
+      "eel, crab meat, avocado, cucumber. eel sauce.",
     price: 13.95,
     image: "../static/items/sushiBurritos/BatmanBurrito.jpg",
     largeImage: "",

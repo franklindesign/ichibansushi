@@ -49,7 +49,7 @@ const sushis = [
     name: "Inari (sushi)",
     description: "2 pieces",
     price: "4.50",
-    image: NoImage,
+    image: "../static/items/nigiri/inari-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -97,7 +97,7 @@ const sushis = [
     name: "Scallop (sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/nigiri/scallop-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -105,7 +105,7 @@ const sushis = [
     name: "Shrimp (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/nigiri/shrimp-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -113,7 +113,7 @@ const sushis = [
     name: "Smelt Egg (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/nigiri/smeltegg-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -121,7 +121,7 @@ const sushis = [
     name: "Squid (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/nigiri/squid-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -129,7 +129,7 @@ const sushis = [
     name: "Sweet Shrimp (sushi)",
     description: "2 pieces",
     price: "11.95",
-    image: NoImage,
+    image: "../static/items/nigiri/sweetshrimp-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -137,7 +137,7 @@ const sushis = [
     name: "Tuna (sushi)",
     description: "2 pieces",
     price: "6.95",
-    image: NoImage,
+    image: "../static/items/nigiri/tuna-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -153,7 +153,7 @@ const sushis = [
     name: "White Fish (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/nigiri/whitefish-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -161,7 +161,7 @@ const sushis = [
     name: "Yellowtail (sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/nigiri/yellowtail-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -169,7 +169,7 @@ const sushis = [
     name: "Halibut (sushi)",
     description: "2 pieces",
     price: "6.95",
-    image: NoImage,
+    image: "../static/items/nigiri/halibut-nigiri.jpg",
     largeImage: "",
   },
   {
