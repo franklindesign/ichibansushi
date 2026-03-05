@@ -10,7 +10,7 @@ const sides = [
     name: "Steamed Rice",
     description: "A side order of steamed rice",
     price: "3.50",
-    image: NoImage,
+    image: "../static/items/sides/rice.jpg",
     largeImage: "",
   },
   {
@@ -18,7 +18,7 @@ const sides = [
     name: "Sushi Rice",
     description: "A side order of sushi rice",
     price: "3.50",
-    image: NoImage,
+    image: "../static/items/sides/sushirice.jpg",
     largeImage: "",
   },
   {
@@ -26,7 +26,7 @@ const sides = [
     name: "Miso Soup",
     description: "A side order of miso soup",
     price: "3.50",
-    image: NoImage,
+    image: "../static/items/sides/misosoup.jpg",
     largeImage: "",
   },
   {
@@ -35,7 +35,7 @@ const sides = [
     description:
       "A side order of soy paper",
     price: 1.00,
-    image: NoImage,
+    image: "../static/items/sides/soypaper.jpg",
     largeImage: "",
   },
 
@@ -44,7 +44,7 @@ const sides = [
     name: "Fried Rice with vegetables",
     description: "A side order of fried rice with vegetables",
     price: 8.95,
-    image: NoImage,
+    image: "../static/items/sides/friedrice.jpg",
     largeImage: "",
   },
   {
@@ -53,7 +53,7 @@ const sides = [
     description:
       "A side order of fried rice with select protein: shrimp, beef, or chicken.",
     price: 11.95,
-    image: NoImage,
+    image: "../static/items/sides/friedriceprotein.jpg",
     largeImage: "",
   },
   

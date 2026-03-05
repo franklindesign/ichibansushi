@@ -40,7 +40,7 @@ const handRolls = [
     name: "California (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/temaki/California.jpg",
     largeImage: "",
   },
   {
@@ -48,7 +48,7 @@ const handRolls = [
     name: "Spicy Tuna (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/temaki/spicytuna.jpg",
     largeImage: "",
   },
   {
@@ -56,7 +56,7 @@ const handRolls = [
     name: "Albacore (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/temaki/albacore.jpg",
     largeImage: "",
   },
   {
@@ -64,7 +64,7 @@ const handRolls = [
     name: "Avocado (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/temaki/avocado.jpg",
     largeImage: "",
   },
   {
@@ -72,7 +72,7 @@ const handRolls = [
     name: "Crab (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/temaki/crab.jpg",
     largeImage: "",
   },
 
@@ -81,7 +81,7 @@ const handRolls = [
     name: "Cucumber (Hand Roll)",
     description: "1 piece",
     price: "3.50",
-    image: NoImage,
+    image: "../static/items/temaki/cucumber.jpg",
     largeImage: "",
   },
   {
@@ -89,7 +89,7 @@ const handRolls = [
     name: "Eel (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/temaki/eel.jpg",
     largeImage: "",
   },
   {
@@ -97,7 +97,7 @@ const handRolls = [
     name: "Salmon (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/temaki/salmon.jpg",
     largeImage: "",
   },
   {
@@ -105,7 +105,7 @@ const handRolls = [
     name: "Salmon Skin (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/temaki/salmonskin.jpg",
     largeImage: "",
   },
   {
@@ -113,7 +113,7 @@ const handRolls = [
     name: "Scallop (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/temaki/scallop.jpg",
     largeImage: "",
   },
   {
@@ -121,7 +121,7 @@ const handRolls = [
     name: "Shrimp & Crab (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/temaki/shrimpcrab.jpg",
     largeImage: "",
   },
   {
@@ -129,7 +129,7 @@ const handRolls = [
     name: "Tuna (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/temaki/tuna.jpg",
     largeImage: "",
   },
   {
@@ -137,7 +137,7 @@ const handRolls = [
     name: "Vegetable (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: NoImage,
+    image: "../static/items/temaki/vegetable.jpg",
     largeImage: "",
   },
   {
@@ -145,7 +145,7 @@ const handRolls = [
     name: "Yellowtail (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/temaki/yellowtail.jpg",
     largeImage: "",
   },
   {
@@ -153,7 +153,7 @@ const handRolls = [
     name: "Philadelphia (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/temaki/philadelphia.jpg",
     largeImage: "",
   },
 ];
@@ -161,7 +161,8 @@ const handRolls = [
 export default function HandRolls() {
   return (
     <div>
-      <p className="text-xl font-black m-2 pb-5">Hand Rolls</p>
+      <p className="text-xl font-black m-2 pb-2">Temaki</p>
+      <p className="px-4 pb-5 text-sm">Temakizushi or hand rolls</p>
       <div className="grid grid-cols-1 grid-rows-5 gap-4 w-auto lg:grid-cols-2">
         {handRolls.map((item) => (
           <div key={item.id}>

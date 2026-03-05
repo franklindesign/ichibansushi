@@ -8,7 +8,7 @@ const regularRolls = [
     name: "California (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/maki/california.jpg",
     largeImage: "",
   },
   {
@@ -16,7 +16,7 @@ const regularRolls = [
     name: "Spicy Tuna (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: NoImage,
+    image: "../static/items/maki/spicytuna.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const regularRolls = [
     name: "Albacore (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/maki/albacore.jpg",
     largeImage: "",
   },
   {
@@ -32,7 +32,7 @@ const regularRolls = [
     name: "Avocado (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/maki/avocado.jpg",
     largeImage: "",
   },
   {
@@ -40,7 +40,7 @@ const regularRolls = [
     name: "Crab (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/maki/crab.jpg",
     largeImage: "",
   },
 
@@ -49,7 +49,7 @@ const regularRolls = [
     name: "Cucumber (Cut Roll)",
     description: "6-8 pieces",
     price: "4.50",
-    image: NoImage,
+    image: "../static/items/maki/cucumber.jpg",
     largeImage: "",
   },
   {
@@ -57,7 +57,7 @@ const regularRolls = [
     name: "Eel (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: NoImage,
+    image: "../static/items/maki/eel.jpg",
     largeImage: "",
   },
   {
@@ -65,7 +65,7 @@ const regularRolls = [
     name: "Salmon (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: NoImage,
+    image: "../static/items/maki/salmon.jpg",
     largeImage: "",
   },
   {
@@ -73,7 +73,7 @@ const regularRolls = [
     name: "Salmon Skin (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/maki/salmonskin.jpg",
     largeImage: "",
   },
   {
@@ -81,7 +81,7 @@ const regularRolls = [
     name: "Scallop (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/maki/scallop.jpg",
     largeImage: "",
   },
   {
@@ -89,7 +89,7 @@ const regularRolls = [
     name: "Shrimp & Crab (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/maki/shrimpcrab.jpg",
     largeImage: "",
   },
   {
@@ -97,7 +97,7 @@ const regularRolls = [
     name: "Tuna (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: NoImage,
+    image: "../static/items/maki/tuna.jpg",
     largeImage: "",
   },
   {
@@ -105,7 +105,7 @@ const regularRolls = [
     name: "Vegetable (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: NoImage,
+    image: "../static/items/maki/vegetable.jpg",
     largeImage: "",
   },
   {
@@ -113,7 +113,7 @@ const regularRolls = [
     name: "Yellowtail (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: NoImage,
+    image: "../static/items/maki/yellowtail.jpg",
     largeImage: "",
   },
   {
@@ -121,7 +121,7 @@ const regularRolls = [
     name: "Philadelphia (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: NoImage,
+    image: "../static/items/maki/philadelphia.jpg",
     largeImage: "",
   },
 ];
@@ -130,7 +130,8 @@ const regularRolls = [
 export default function RegularRolls() {
    return (
               <div>
-                <p className="text-xl font-black m-2 pb-5">Regular Cut Rolls</p>
+                <p className="text-xl font-black m-2 pb-2">Maki</p>
+                <p className="px-4 pb-5 text-sm">Makizushi or regular cut rolls</p>
                 <div className="grid grid-cols-1 grid-rows-5 gap-4 w-auto lg:grid-cols-2">
                   {regularRolls.map((item) => (
                     <div key={item.id}>
