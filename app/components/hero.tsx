@@ -5,7 +5,7 @@ const image = "/static/heroes/hero.jpg";
 
 export default function Hero() {
   return (
-    <div className="bg-white relative" >
+    <div className="bg-white relative max-w-dvw" >
       <Image
         alt="yelp banner"
         src={image}
