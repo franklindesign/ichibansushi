@@ -8,7 +8,7 @@ const soupAndNoodles = [
     name: "Tempura Udon",
     description: "shrimp tempura in noodle soup",
     price: 14.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/tempuraUdon.jpg",
     largeImage: "",
   },
   {
@@ -16,7 +16,7 @@ const soupAndNoodles = [
     name: "Chicken Udon",
     description: "chicken in noodle soup",
     price: 14.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/chickenUdon.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const soupAndNoodles = [
     name: "Beef Udon",
     description: "beef in noodle soup",
     price: 14.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/beefUdon.jpg",
     largeImage: "",
   },
   {
@@ -32,7 +32,7 @@ const soupAndNoodles = [
     name: "Seafood Udon",
     description: "various seafood in noodle soup",
     price: 14.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/seafoodUdon.jpg",
     largeImage: "",
   },
   {
@@ -40,7 +40,7 @@ const soupAndNoodles = [
     name: "Tonkotsu Ramen",
     description: "Choose regular or spicy flavor",
     price: 14.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/tonkotsuRamen.jpg",
     largeImage: "",
   },
   {
@@ -48,7 +48,7 @@ const soupAndNoodles = [
     name: "Miso Ramen",
     description: "Choose regular or spicy flavor",
     price: 14.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/misoRamen.jpg",
     largeImage: "",
   },
   {
@@ -56,7 +56,7 @@ const soupAndNoodles = [
     name: "Seafood Ramen",
     description: "shrimp, jumbo scallop, mussel, calamari, vegetables",
     price: 14.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/seafoodRamen.jpg",
     largeImage: "",
   },
 
@@ -65,7 +65,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Vegetables)",
     description: "pan fried Japanese thin noodles with vegetables",
     price: 12.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/vegetableYakisoba.jpg",
     largeImage: "",
   },
   {
@@ -73,7 +73,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Chicken)",
     description: "pan fried Japanese thin noodles with chicken",
     price: 15.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/chickenYakisoba.jpg",
     largeImage: "",
   },
   {
@@ -81,7 +81,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Beef)",
     description: "pan fried Japanese thin noodles with beef",
     price: 15.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/beefYakisoba.jpg",
     largeImage: "",
   },
   {
@@ -89,7 +89,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Shrimp)",
     description: "pan fried Japanese thin noodles with shrimp",
     price: 15.95,
-    image: NoImage,
+    image: "../static/items/soupnoodles/shrimpYakisoba.jpg",
     largeImage: "",
   },
   {

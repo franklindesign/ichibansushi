@@ -80,7 +80,7 @@ const HorizontalCardScroll: FC = () => {
 
   return (
     <section className="w-full px-4 py-8">
-      <h2 className="mb-4 text-2xl font-bold text-slate-900">Our Popular Items</h2>
+      <h2 className="mb-4 md:text-2xl text-xl font-bold text-slate-900 dark:text-white">Popular Items</h2>
 
       <div
         ref={containerRef}

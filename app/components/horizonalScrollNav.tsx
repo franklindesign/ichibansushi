@@ -27,8 +27,8 @@ const categories = [
 
 export default function HorizonalScrollNav() {
   return (
-    <div className="md:hidden pb-4 w-[372]">
-      <nav className="flex overflow-x-scroll space-x-2 p-2  touch-pan-x bg-white dark:bg-black text-black dark:text-white">
+    <div className="md:hidden pb-4 w-[365]  ">
+      <nav className="flex overflow-x-scroll space-x-2 p-2  touch-pan-x bg-white dark:bg-black text-black dark:text-white rounded-xl" >
         {categories.map((category) => (
           <a
             className="shrink-0 px-2 py-2 hover:bg-red-200 hover:text-black rounded-2xl"

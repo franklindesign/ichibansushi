@@ -7,7 +7,7 @@ import HorizontalCardScroll from "./components/horizonalcards";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1 grid-rows-2">
+    <div className="grid grid-cols-1 sm:grid-rows-2">
       <div>
         <Welcome></Welcome>
       </div>
