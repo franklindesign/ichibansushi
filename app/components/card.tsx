@@ -24,6 +24,7 @@ export default function Card({
         <div className="flex justify-end">
           <img
             className="object-cover lg:object-contain sm:h-50 h-50 rounded-2xl"
+            loading="lazy"
             src={`${itemImage.image}`}
             alt={`${itemName.text}`}
           />

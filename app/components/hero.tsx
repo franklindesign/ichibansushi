@@ -8,6 +8,7 @@ export default function Hero() {
     <div className="bg-white relative max-w-dvw" >
       <Image
         alt="yelp banner"
+        loading="lazy"
         src={image}
         fill
         sizes="100vw"

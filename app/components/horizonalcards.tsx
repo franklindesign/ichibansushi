@@ -94,6 +94,7 @@ const HorizontalCardScroll: FC = () => {
             className="min-w-75 rounded-xl border border-slate-200 bg-white p-3 shadow-sm"
           >
             <img
+            loading="lazy"
               src={card.image}
               alt={card.title}
               width={300}

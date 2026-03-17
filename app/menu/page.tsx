@@ -23,6 +23,7 @@ import SoupNoodles from "./soup-noodles/page";
 import SpecialSushi from "./special-sushi/page";
 import SushiBurritos from "./sushi-burritos/page";
 import TempuraRolls from "./tempura-rolls/page";
+import SushiCombo from "./sushi-combo/page";
 
 export default function Menu() {
   return (
@@ -66,6 +67,9 @@ export default function Menu() {
         </div>
         <div className="pt-12 scroll-mt-25" id="Sashimi">
           <Sashimi />
+        </div>
+        <div className="pt-12 scroll-mt-25" id="SushiCombo">
+          <SushiCombo />
         </div>
         <div className="pt-12 scroll-mt-25" id="AppetizersCold">
           <AppetizersCold />
