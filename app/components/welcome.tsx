@@ -6,7 +6,7 @@ import bgimage from "@/public/images/bg/2212395823.webp";
 
 export default function Welcome() {
   return (
-    <div>
+    <div className="z-0">
       <div className="bg-black relative">
         <Image
           alt="bg"

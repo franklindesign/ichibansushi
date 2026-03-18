@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/app/components/theme-provider";
 import IchibanHeader from "@/app/components/ichibanheader";
 import Footer from "./components/footer";
+import SearchComponent from "./components/search";
+ 
 
 
 const geistSans = Geist({
@@ -35,6 +37,7 @@ export default function RootLayout({
       >
         <div className="sticky top-0 z-50">
           <IchibanHeader />
+          <SearchComponent></SearchComponent>
         </div>
         <div>
           <ThemeProvider
