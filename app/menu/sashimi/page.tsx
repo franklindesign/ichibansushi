@@ -14,7 +14,7 @@ const sashimis = [
     name: "Big Scallop (5-6 pieces)",
     description: " ",
     price: "19.95",
-    image: "../static/items/sashimi/scallop-sashimi.jpg",
+    image: "../static/items/sashimi/bigscallop-sashimi.jpg",
     largeImage: "",
   },
   {

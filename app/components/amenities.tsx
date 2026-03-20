@@ -188,7 +188,7 @@ export default function AmenitiesList({
           <button
             type="button"
             onClick={() => setExpanded((current) => !current)}
-            className="mt-8 inline-flex rounded-2xl border border-slate-300 bg-white dark:bg-black dark:text-white px-5 py-3 text-lg font-medium text-black transition  "
+            className="mt-8 inline-flex rounded-2xl  border border-slate-300 bg-white dark:bg-black dark:text-white px-5 py-3 text-xs font-medium text-black transition"
           >
             {expanded ? "Show Less" : "Show More"}
           </button>

@@ -1,6 +1,7 @@
 "use client";
 import type { FC, TouchEvent } from "react";
 import { useRef, useState } from "react";
+ 
 
 type ScrollCard = {
   id: number;
@@ -45,6 +46,12 @@ const cards: ScrollCard[] = [
     title: "Spicy Shrimp & Crab Inari",
     subtitle: "Inarizushi w/ spicy shrimp & crab",
     image: "../static/items/inariSushi/spicyshrimp.jpg",
+  },
+  {
+    id: 7,
+    title: "Baked Green Mussel (5 Pieces)",
+    subtitle: "Five pieces of baked green mussels",
+    image: "../static/items/hotAppetizers/BakedGreenMussels.jpg"
   },
 ];
 

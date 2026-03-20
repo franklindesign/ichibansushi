@@ -29,6 +29,34 @@ const mostLikedItems = [
     price: "18.95",
     image: "../static/items/freshRolls/YellowtailDelightRoll.jpg",
   },
+    {
+    id: 5,
+    name: "Special Sushi Combo",
+    description: "",
+    price: "27.95",
+    image: "../static/items/sushiCombo/specialSushi.jpg",
+  },
+  {
+    id: 6,
+    name: "Spider Man Burrito",
+    description: "",
+    price: "13.95",
+    image: "../static/items/sushiBurritos/SpiderManBurrito.jpg",
+  },
+  {
+    id: 7,
+    name: "Spicy Shrimp and Crab Inari",
+    description: "",
+    price: "5.95",
+    image: "../static/items/inariSushi/spicyshrimp.jpg",
+  },
+  {
+    id: 8,
+    name: "Baked Green Mussels",
+    description: "",
+    price: "9.95",
+    image: "../static/items/hotAppetizers/BakedGreenMussels.jpg",
+  },
 ];
 
 export default function MostLikedItems() {

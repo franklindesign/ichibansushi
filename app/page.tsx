@@ -12,7 +12,6 @@ const DynamicHorizontalCards = dynamic(() => import("./components/horizonalcards
 export default function Home() {
   return (
     <div>
-       
       <div>
         <Welcome></Welcome>
       </div>

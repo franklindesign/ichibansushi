@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="flex flex-col justify-center items-center p-5">
         <div className="pb-12">
         <p className="text-xs">
-          Note: Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs increases your risk for foodborne illness. Photos are representative of the dish and may vary based on chef's preparation.
+          Note: Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs increases your risk for foodborne illness. Photos are representative of the dish and may vary based on chef's preparation. Item prices are may subject to change.
         </p>
       </div>
         <div className="flex pb-5 gap-10">

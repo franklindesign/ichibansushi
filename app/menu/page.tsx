@@ -1,4 +1,3 @@
-import HorizonalScrollNav from "../components/horizonalScrollNav";
 import MostLikedItems from "../components/mostLikedItems";
 import AppetizersCold from "./appetizers-cold/page";
 import AppetizersWarm from "./appetizers-warm/page";
@@ -28,10 +27,7 @@ import SushiCombo from "./sushi-combo/page";
 export default function Menu() {
   return (
     <div>
-      <div className="z-49 sticky top-20">
-        <HorizonalScrollNav></HorizonalScrollNav>
-      </div>
-      <MostLikedItems></MostLikedItems>
+      <div className="hidden lg:flex"><MostLikedItems /></div>
 
       <div className="md:hidden">
         <p className="pt-16 font-extrabold text-2xl">All Items</p>

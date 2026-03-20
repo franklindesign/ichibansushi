@@ -1,40 +1,45 @@
 "use client";
 
+import Link from "next/link";
+
+
 const categories = [
-  { id: 1, category: "Appetizers (Cold)", href: "#AppetizersCold" },
-  { id: 2, category: "Appetizers (Warm)", href: "#AppetizersWarm" },
-  { id: 3, category: "Baked Rolls", href: "#BakedRolls" },
-  { id: 4, category: "Fresh Rolls", href: "#FreshRolls" },
-  { id: 5, category: "Tempura Rolls", href: "#TempuraRolls" },
-  { id: 6, category: "Hand Rolls", href: "#HandRolls" },
-  { id: 7, category: "Regular Rolls", href: "#RegularRolls" },
-  { id: 8, category: "Sushi Burritos", href: "#SushiBurritos" },
-  { id: 9, category: "Nigiri", href: "#Nigiri" },
-  { id: 10, category: "Sashimi", href: "#Sashimi" },
-  { id: 11, category: "Sushi Combo", href: "#SushiCombo" },
-  { id: 12, category: "Inarizushi", href: "#Inarizushi" },
-  { id: 13, category: "Bento Box", href: "#Bento" },
-  { id: 14, category: "Salad", href: "#Salad" },
-  { id: 15, category: "Entree", href: "#Entree" },
-  { id: 16, category: "Side Orders", href: "#SideOrders" },
-  { id: 17, category: "Kids Menu", href: "#KidsMenu" },
-  { id: 18, category: "Soup & Noodles", href: "#SoupNoodles" },
-  { id: 19, category: "Beverages", href: "#Beverages" },
-  { id: 20, category: "Beer & Wine", href: "#BeerWine" },
-  { id: 21, category: "Sake & Soju", href: "#SakeSoju" },
-  { id: 22, category: "Dessert", href: "#Dessert" },
+  { id: 24, category: "All Items", href: "/menu" },
+  { id: 1, category: "Appetizers (Cold)", href: "/menu/appetizers-cold" },
+  { id: 2, category: "Appetizers (Warm)", href: "/menu/appetizers-warm" },
+  { id: 3, category: "Baked Rolls", href: "/menu/baked-rolls" },
+  { id: 4, category: "Fresh Rolls", href: "/menu/fresh-rolls" },
+  { id: 5, category: "Tempura Rolls", href: "/menu/tempura-rolls" },
+  { id: 6, category: "Hand Rolls", href: "/menu/hand-rolls" },
+  { id: 7, category: "Regular Rolls", href: "/menu/regular-rolls" },
+  { id: 8, category: "Sushi Burritos", href: "/menu/sushi-burritos" },
+  { id: 9, category: "Nigiri", href: "/menu/nigiri-sushi" },
+  { id: 10, category: "Sashimi", href: "/menu/sashimi" },
+  { id: 11, category: "Sushi Combo", href: "/menu/sushi-combo" },
+  { id: 12, category: "Inarizushi", href: "/menu/inarizushi" },
+  { id: 13, category: "Bento Box", href: "/menu/bento-box" },
+  { id: 14, category: "Salad", href: "/menu/salad" },
+  { id: 15, category: "Entree", href: "/menu/entree" },
+  { id: 16, category: "Side Orders", href: "/menu/side-orders" },
+  { id: 17, category: "Kids Menu", href: "/menu/kids-menu" },
+  { id: 18, category: "Soup & Noodles", href: "/menu/soup-noodles" },
+  { id: 19, category: "Beverages", href: "/menu/beverages" },
+  { id: 20, category: "Beer & Wine", href: "/menu/beer-wine" },
+  { id: 21, category: "Sake & Soju", href: "/menu/sake-soju" },
+  { id: 22, category: "Dessert", href: "/menu/dessert" },
+  { id: 23, category: "Pocha Menu", href: "/menu/pocha"}
 ];
 
 export default function HorizonalScrollNav() {
   return (
-    <div className="md:hidden pb-4 w-[365]  ">
+    <div className="md:hidden max-w-dvw">
       <nav className="flex overflow-x-scroll space-x-2 p-2  touch-pan-x bg-white dark:bg-black text-black dark:text-white rounded-xl" >
         {categories.map((category) => (
-          <a
-            className="shrink-0 px-2 py-2 hover:bg-red-200 hover:text-black rounded-2xl"
+          <Link
+            className="shrink-0 px-2 hover:bg-red-200 hover:text-black rounded-2xl"
             key={category.id}
             href={`${category.href}`}
-          >{`${category.category}`}</a>
+          >{`${category.category}`}</Link>
         ))}
       </nav>
     </div>
