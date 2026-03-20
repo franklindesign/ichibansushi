@@ -1,12 +1,11 @@
 'use client';
-import Hero from "./components/hero";
-import Welcome from "./components/welcome";
 import FAQAccordion from "./components/faq";
- 
 import dynamic from 'next/dynamic'
 import AmenitiesList from "./components/amenities";
+import Hero from "./components/hero";
  
-
+ 
+const Welcome = dynamic(() => import("./components/welcome"), { ssr: false })
 const DynamicHorizontalCards = dynamic(() => import("./components/horizonalcards"), { ssr: false })
 
 export default function Home() {

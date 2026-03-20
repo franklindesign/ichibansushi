@@ -146,7 +146,7 @@ export default function AmenitiesList({
   }, [visibleItems]);
 
   return (
-    <section className="w-full bg-white dark:bg-black px-5 py-8 sm:px-8 lg:px-14">
+    <section className="w-full  px-5 py-8 sm:px-8 lg:px-14">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-xl font-bold text-black dark:text-white sm:text-2xl mb-4">
           {title}

@@ -66,7 +66,7 @@ export default function SearchComponent({
 
   return (
     <div className="bg-white dark:bg-black">
-      <header className="border-b border-slate-200/80 bg-white/80 dark:bg-black backdrop-blur-xl">
+      <header className="border-b bg-white/80 dark:bg-black backdrop-blur-xl">
         <nav className="mx-auto flex xs:w-2xl  max-w-2xl flex-col gap-4 px-4 py-2 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div className="relative w-full max-w-xl">
             <label className="flex h-12 items-center rounded-2xl  bg-slate-50/80 pl-4 pr-3 shadow-sm transition focus-within:border-red-300 focus-within:bg-white focus-within:ring-4 focus-within:ring-red-200">
@@ -104,7 +104,7 @@ export default function SearchComponent({
             </label>
 
             {showResults ? (
-              <div className="absolute   top-[calc(100%+0.75rem)] z-50 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_24px_80px_-48px_rgba(15,23,42,0.5)]">
+              <div className="absolute top-[calc(100%+0.75rem)] z-50 overflow-hidden rounded-2xl bg-black dark:bg-white shadow-[0_24px_80px_-48px_rgba(15,23,42,0.5)]">
                 {visibleItems.length > 0 ? (
                   <div className="p-2">
                     {visibleItems.map((item) => (
@@ -115,10 +115,10 @@ export default function SearchComponent({
                         className="flex items-center justify-between rounded-2xl px-4 py-3 transition hover:bg-slate-50"
                       >
                         <div className="p-2">
-                          <p className="text-sm font-semibold text-slate-900">
+                          <p className="text-sm font-semibold text-white dark:text-black">
                             {item.title}
                           </p>
-                          <p className="text-xs uppercase text-black">
+                          <p className="text-xs font-light text-white dark:text-black">
                             {item.section}
                           </p>
                         </div>
@@ -127,10 +127,10 @@ export default function SearchComponent({
                   </div>
                 ) : (
                   <div className="px-4 py-6 text-center">
-                    <p className="text-sm font-semibold text-slate-900">
+                    <p className="text-sm font-semibold text-white">
                       No results
                     </p>
-                    <p className="mt-1 text-sm text-black">
+                    <p className="mt-1 text-sm text-white">
                       Try another keyword.
                     </p>
                   </div>
