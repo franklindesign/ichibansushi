@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/app/components/theme-provider";
 import IchibanHeader from "@/app/components/ichibanheader";
 import Footer from "./components/footer";
 import SearchComponent from "./components/search";
- 
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,17 +36,8 @@ export default function RootLayout({
           <IchibanHeader />
           <SearchComponent></SearchComponent>
         </div>
-        <div>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-        </div>
-       <Footer></Footer>
+        <div>{children}</div>
+        <Footer></Footer>
       </body>
     </html>
   );

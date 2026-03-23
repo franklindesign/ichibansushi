@@ -66,7 +66,7 @@ export default function SearchComponent({
 
   return (
     <div className="bg-white dark:bg-black">
-      <header className="border-b bg-white/80 dark:bg-black backdrop-blur-xl">
+      <header className=" bg-white/80 dark:bg-black backdrop-blur-xl">
         <nav className="mx-auto flex xs:w-2xl  max-w-2xl flex-col gap-4 px-4 py-2 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div className="relative w-full max-w-xl">
             <label className="flex h-12 items-center rounded-2xl  bg-slate-50/80 pl-4 pr-3 shadow-sm transition focus-within:border-red-300 focus-within:bg-white focus-within:ring-4 focus-within:ring-red-200">
