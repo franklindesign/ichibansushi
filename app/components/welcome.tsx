@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const welcomeMessages = [
+const defaultMessages = [
   "Welcome to your next favorite sushi spot.",
   "Fresh rolls, warm rice, and a table waiting for you.",
   "Settle in for sushi made to share and savor.",
@@ -10,14 +10,19 @@ const welcomeMessages = [
   "Welcome in for fresh sushi and an easy night out.",
 ];
 
-const backgroundPhotos = [
-    "../images/bg/2212395823.webp",
+const defaultPhotos = [
+  "../images/bg/2212395823.webp",
   "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=1600&q=80",
   "https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&w=1600&q=80",
   "https://images.unsplash.com/photo-1563612116625-3012372fccce?auto=format&fit=crop&w=1600&q=80",
   "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1600&q=80",
   "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=1600&q=80",
 ];
+
+type WelcomeProps = {
+  messages?: string[];
+  photos?: string[];
+};
 
 const getRandomIndex = (length: number, currentIndex?: number) => {
   if (length <= 1) {
@@ -33,33 +38,41 @@ const getRandomIndex = (length: number, currentIndex?: number) => {
   return nextIndex;
 };
 
-export default function Welcome() {
+export default function Welcome({
+  messages = defaultMessages,
+  photos = defaultPhotos,
+}: WelcomeProps) {
   const [backgroundIndex, setBackgroundIndex] = useState(() =>
-    getRandomIndex(backgroundPhotos.length),
+    getRandomIndex(photos.length),
   );
   const [messageIndex, setMessageIndex] = useState(() =>
-    getRandomIndex(welcomeMessages.length),
+    getRandomIndex(messages.length),
   );
+
+  useEffect(() => {
+    setBackgroundIndex(getRandomIndex(photos.length));
+    setMessageIndex(getRandomIndex(messages.length));
+  }, [photos, messages]);
 
   useEffect(() => {
     const intervalId = window.setInterval(() => {
       setBackgroundIndex((currentIndex) =>
-        getRandomIndex(backgroundPhotos.length, currentIndex),
+        getRandomIndex(photos.length, currentIndex),
       );
       setMessageIndex((currentIndex) =>
-        getRandomIndex(welcomeMessages.length, currentIndex),
+        getRandomIndex(messages.length, currentIndex),
       );
     }, 6000);
 
     return () => window.clearInterval(intervalId);
-  }, []);
+  }, [photos, messages]);
 
   return (
     <div className="z-0">
       <div
         className="relative overflow-hidden bg-black transition-[background-image] duration-1000 ease-out"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(${backgroundPhotos[backgroundIndex]})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(${photos[backgroundIndex]})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
@@ -75,7 +88,7 @@ export default function Welcome() {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="text-center ">
               <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
-                {welcomeMessages[messageIndex]}
+                {messages[messageIndex]}
               </h1>
 
               <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8"></p>

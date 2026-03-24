@@ -73,7 +73,7 @@ export default function SushiCombo() {
                 <p className="text-xl font-black m-2 pb-5">Sushi & Sashimi Combo</p>
                 <div className="grid grid-cols-1 grid-rows-2 gap-4 w-auto lg:grid-cols-2">
                   {sushiCombo.map((item) => (
-                    <div key={item.id}>
+                    <div key={item.id} className="scroll-mt-4">
                       <Card
                         itemName={{ text: `${item.name}` }}
                         itemDescription={{ text: `${item.description}` }}

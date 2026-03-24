@@ -1,4 +1,6 @@
+'use client'
 import Card from "./card";
+ 
 
 const mostLikedItems = [
   {

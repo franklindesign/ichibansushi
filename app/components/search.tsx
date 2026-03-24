@@ -6,7 +6,6 @@ import { MagnifyingGlassIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import defaultItems from "./search-items.json";
 import HorizonalScrollNav from "./horizonalScrollNav";
 
-
 type SearchItem = {
   id: number | string;
   title: string;
@@ -115,22 +114,30 @@ export default function SearchComponent({
                         className="flex items-center justify-between rounded-2xl px-4 py-3 transition hover:bg-slate-50"
                       >
                         <div className="p-2">
-                          <p className="text-sm font-semibold text-white dark:text-black">
-                            {item.title}
-                          </p>
-                          <p className="text-xs font-light text-white dark:text-black">
-                            {item.section}
-                          </p>
+                          <div className="flex">
+                            <MagnifyingGlassIcon
+                              aria-hidden="true"
+                              className="size-6"
+                            />
+                            <p className="text-sm font-semibold text-white dark:text-black">
+                              {item.title}
+                            </p>
+                          </div>
+                          <div>
+                            <p className="text-xs font-light text-white dark:text-black">
+                              {item.section}
+                            </p>
+                          </div>
                         </div>
                       </Link>
                     ))}
                   </div>
                 ) : (
                   <div className="px-4 py-6 text-center">
-                    <p className="text-sm font-semibold text-white">
+                    <p className="text-sm font-semibold text-black dark:text-white">
                       No results
                     </p>
-                    <p className="mt-1 text-sm text-white">
+                    <p className="mt-1 text-sm text-black dark:text-white">
                       Try another keyword.
                     </p>
                   </div>

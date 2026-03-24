@@ -34,7 +34,7 @@ export default function Bento() {
         </p>
       </div>
       <div>
-        <p className="text-xl font-black m-2 pb-5">Korean Bento Box</p>
+        <p className="text-xl font-black m-2 pb-5 scroll-mt-4">Korean Bento Box</p>
       </div>
 
       <div>
