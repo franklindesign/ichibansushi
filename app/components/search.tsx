@@ -103,7 +103,7 @@ export default function SearchComponent({
             </label>
 
             {showResults ? (
-              <div className="absolute top-[calc(100%+0.75rem)] z-50 overflow-hidden rounded-2xl bg-black dark:bg-white shadow-[0_24px_80px_-48px_rgba(15,23,42,0.5)]">
+              <div className="absolute top-[calc(100%+0.75rem)] z-50 overflow-hidden rounded-2xl bg-white shadow-[0_24px_80px_-48px_rgba(15,23,42,0.5)]">
                 {visibleItems.length > 0 ? (
                   <div className="p-2">
                     {visibleItems.map((item) => (
@@ -117,14 +117,14 @@ export default function SearchComponent({
                           <div className="flex">
                             <MagnifyingGlassIcon
                               aria-hidden="true"
-                              className="size-6"
+                              className="size-6 text-black"
                             />
-                            <p className="text-sm font-semibold text-white dark:text-black">
+                            <p className="text-sm font-semibold  text-black">
                               {item.title}
                             </p>
                           </div>
                           <div>
-                            <p className="text-xs font-light text-white dark:text-black">
+                            <p className="text-xs font-light text-black">
                               {item.section}
                             </p>
                           </div>
@@ -134,10 +134,10 @@ export default function SearchComponent({
                   </div>
                 ) : (
                   <div className="px-4 py-6 text-center">
-                    <p className="text-sm font-semibold text-black dark:text-white">
+                    <p className="text-sm font-semibold text-black">
                       No results
                     </p>
-                    <p className="mt-1 text-sm text-black dark:text-white">
+                    <p className="mt-1 text-sm text-black ">
                       Try another keyword.
                     </p>
                   </div>

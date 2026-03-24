@@ -102,7 +102,6 @@ export default function IchibanHeader() {
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
-              {/* <div><ThemeToggler /></div> */}
               {navigation.map((item) => (
                 <a
                   key={item.name}

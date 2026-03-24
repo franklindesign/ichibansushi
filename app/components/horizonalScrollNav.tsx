@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 
-
 const categories = [
   { id: 24, category: "All Items", href: "/menu" },
   { id: 1, category: "Appetizers (Cold)", href: "/menu/appetizers-cold" },
@@ -27,13 +26,13 @@ const categories = [
   { id: 20, category: "Beer & Wine", href: "/menu/beer-wine" },
   { id: 21, category: "Sake & Soju", href: "/menu/sake-soju" },
   { id: 22, category: "Dessert", href: "/menu/dessert" },
-  { id: 23, category: "Pocha Menu", href: "/menu/pocha"}
+  { id: 23, category: "Pocha Menu", href: "/menu/pocha" },
 ];
 
 export default function HorizonalScrollNav() {
   return (
     <div className="md:hidden max-w-dvw">
-      <nav className="flex overflow-x-scroll space-x-2 p-2  touch-pan-x bg-white dark:bg-black text-black dark:text-white rounded-xl" >
+      <nav className="flex overflow-x-scroll space-x-2 p-2  touch-pan-x bg-white dark:bg-black text-black dark:text-white rounded-xl">
         {categories.map((category) => (
           <Link
             className="shrink-0 px-2 hover:bg-red-200 hover:text-black rounded-2xl"
