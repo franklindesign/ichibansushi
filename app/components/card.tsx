@@ -13,7 +13,7 @@ export default function Card({
   itemPrice: any;
 }) {
   return (
-    <div className="flex rounded-2xl bg-white dark:bg-background w-[600] h-50" >
+    <div className="flex rounded-2xl bg-white dark:bg-background" >
       <div className="flex justify-between items-center">
         <div className="lg:p-8 p-5 -mt-5 lg:w-100 w-50">
           <div className="text-sm font-semibold  text-(--textPrimary) uppercase">

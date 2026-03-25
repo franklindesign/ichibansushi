@@ -110,7 +110,7 @@ const HorizontalCardScroll: FC = () => {
         {shuffledCards.map((card) => (
           <article
             key={card.id}
-            className="min-w-75 rounded-2xl border bg-white p-3 shadow-sm"
+            className="min-w-75 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm"
           >
             <Image
               loading="eager"
@@ -118,7 +118,6 @@ const HorizontalCardScroll: FC = () => {
               alt={card.title}
               width={300}
               height={200}
-              quality={75}
               className="rounded-2xl object-cover"
             />
             <h3 className="mt-3 text-lg font-semibold text-slate-900">
