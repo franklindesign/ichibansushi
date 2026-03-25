@@ -6,7 +6,7 @@ const bakedRolls = [
     name: "Baked Crab Roll",
     description: " crabmeat, avocado.  baked snow crab.",
     price: 17.95,
-    image: "../static/items/bakedRolls/BakedCrabRoll.jpg",
+    image: "/static/items/bakedRolls/BakedCrabRoll.jpg",
     largeImage: "",
   },
   {
@@ -14,7 +14,7 @@ const bakedRolls = [
     name: "Baked Salmon Roll",
     description: " crabmeat, avocado.  baked salmon.  eel sauce.",
     price: 15.95,
-    image: "../static/items/bakedRolls/BakedSalmonRoll.jpg",
+    image: "/static/items/bakedRolls/BakedSalmonRoll.jpg",
     largeImage: "",
   },
   {
@@ -22,14 +22,14 @@ const bakedRolls = [
     name: "BSCR",
     description: " crabmeat, avocado,  baked scallop, masago,  eel sauce",
     price: 14.95,
-    image: "../static/items/bakedRolls/BSCRoll.jpg",
+    image: "/static/items/bakedRolls/BSCRoll.jpg",
   },
   {
     id: 4,
     name: "Caterpillar Roll",
     description: " eel, cucumber.  avocado.  eel sauce.",
     price: 14.95,
-    image: " ../static/items/bakedRolls/CaterpillarRoll.jpg",
+    image: "/static/items/bakedRolls/CaterpillarRoll.jpg",
     largeImage: "",
   },
   {
@@ -37,14 +37,14 @@ const bakedRolls = [
     name: "Lobster Roll",
     description: " crabmeat, avocado.  baked lobster, masago.  lobster sauce.",
     price: 18.95,
-    image: "../static/items/bakedRolls/LobsterRoll.jpg",
+    image: "/static/items/bakedRolls/LobsterRoll.jpg",
   },
   {
     id: 6,
     name: "Snow Roll",
     description: " crabmeat, avocado.  baked white fish, soy paper.",
     price: 14.95,
-    image: "../static/items/bakedRolls/SnowRoll.jpg",
+    image: "/static/items/bakedRolls/SnowRoll.jpg",
     largeImage: "",
   },
   {
@@ -52,7 +52,7 @@ const bakedRolls = [
     name: "Sunset Roll",
     description: " crabmeat, avocado.  baked eel, avocado.  eel sauce.",
     price: 15.95,
-    image: "../static/items/bakedRolls/SunsetRoll.jpg",
+    image: "/static/items/bakedRolls/SunsetRoll.jpg",
     largeImage: "",
   },
   {
@@ -61,7 +61,7 @@ const bakedRolls = [
     description:
       " crabmeat, avocado.  baked scallop, shrimp, crab.  creamy sauce.",
     price: 14.95,
-    image: "../static/items/bakedRolls/VolcanoRoll.jpg",
+    image: "/static/items/bakedRolls/VolcanoRoll.jpg",
     largeImage: "",
   },
 ];

@@ -1,6 +1,6 @@
 import Card from "@/app/components/card";
 
-const NoImage = "../static/items/NoImageTemaki.jpg";
+const NoImage = "/static/items/NoImageTemaki.jpg";
 
 const handRolls = [
   {
@@ -8,7 +8,7 @@ const handRolls = [
     name: "Baked Crab (Hand roll)",
     description: "baked blue crab, masago, green onions",
     price: "9.95",
-    image: "../static/items/handRolls/BakedCrabHandRoll.jpg",
+    image: "/static/items/handRolls/BakedCrabHandRoll.jpg",
     largeImage: "",
   },
   {
@@ -16,7 +16,7 @@ const handRolls = [
     name: "Lobster (Hand Roll)",
     description: "lobster, avocado, green onions",
     price: "11.95",
-    image: "../static/items/handRolls/LobsterHandRoll.jpg",
+    image: "/static/items/handRolls/LobsterHandRoll.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const handRolls = [
     name: "LBJ (Hand Roll)",
     description: "shrimp tempura, avocado, masago, green onions",
     price: "11.95",
-    image: "../static/items/handRolls/LBJ.jpg",
+    image: "/static/items/handRolls/LBJ.jpg",
     largeImage: "",
   },
   {
@@ -32,7 +32,7 @@ const handRolls = [
     name: "Shrimp Tempura (Hand Roll)",
     description: "shrimp tempura, avocado, crabmeat",
     price: "9.95",
-    image: "../static/items/handRolls/ShrimpTempuraHandRoll.jpg",
+    image: "/static/items/handRolls/ShrimpTempuraHandRoll.jpg",
     largeImage: "",
   },
   {
@@ -40,7 +40,7 @@ const handRolls = [
     name: "California (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/temaki/California.jpg",
+    image: "/static/items/temaki/California.jpg",
     largeImage: "",
   },
   {
@@ -48,7 +48,7 @@ const handRolls = [
     name: "Spicy Tuna (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: "../static/items/temaki/spicytuna.jpg",
+    image: "/static/items/temaki/spicytuna.jpg",
     largeImage: "",
   },
   {
@@ -56,7 +56,7 @@ const handRolls = [
     name: "Albacore (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/temaki/albacore.jpg",
+    image: "/static/items/temaki/albacore.jpg",
     largeImage: "",
   },
   {
@@ -64,7 +64,7 @@ const handRolls = [
     name: "Avocado (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/temaki/avocado.jpg",
+    image: "/static/items/temaki/avocado.jpg",
     largeImage: "",
   },
   {
@@ -72,7 +72,7 @@ const handRolls = [
     name: "Crab (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/temaki/crab.jpg",
+    image: "/static/items/temaki/crab.jpg",
     largeImage: "",
   },
 
@@ -81,7 +81,7 @@ const handRolls = [
     name: "Cucumber (Hand Roll)",
     description: "1 piece",
     price: "3.50",
-    image: "../static/items/temaki/cucumber.jpg",
+    image: "/static/items/temaki/cucumber.jpg",
     largeImage: "",
   },
   {
@@ -89,7 +89,7 @@ const handRolls = [
     name: "Eel (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: "../static/items/temaki/eel.jpg",
+    image: "/static/items/temaki/eel.jpg",
     largeImage: "",
   },
   {
@@ -97,7 +97,7 @@ const handRolls = [
     name: "Salmon (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: "../static/items/temaki/salmon.jpg",
+    image: "/static/items/temaki/salmon.jpg",
     largeImage: "",
   },
   {
@@ -105,7 +105,7 @@ const handRolls = [
     name: "Salmon Skin (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/temaki/salmonskin.jpg",
+    image: "/static/items/temaki/salmonskin.jpg",
     largeImage: "",
   },
   {
@@ -113,7 +113,7 @@ const handRolls = [
     name: "Scallop (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/temaki/scallop.jpg",
+    image: "/static/items/temaki/scallop.jpg",
     largeImage: "",
   },
   {
@@ -121,7 +121,7 @@ const handRolls = [
     name: "Shrimp & Crab (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/temaki/shrimpcrab.jpg",
+    image: "/static/items/temaki/shrimpcrab.jpg",
     largeImage: "",
   },
   {
@@ -129,7 +129,7 @@ const handRolls = [
     name: "Tuna (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: "../static/items/temaki/tuna.jpg",
+    image: "/static/items/temaki/tuna.jpg",
     largeImage: "",
   },
   {
@@ -137,7 +137,7 @@ const handRolls = [
     name: "Vegetable (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/temaki/vegetable.jpg",
+    image: "/static/items/temaki/vegetable.jpg",
     largeImage: "",
   },
   {
@@ -145,7 +145,7 @@ const handRolls = [
     name: "Yellowtail (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: "../static/items/temaki/yellowtail.jpg",
+    image: "/static/items/temaki/yellowtail.jpg",
     largeImage: "",
   },
   {
@@ -153,7 +153,7 @@ const handRolls = [
     name: "Philadelphia (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: "../static/items/temaki/philadelphia.jpg",
+    image: "/static/items/temaki/philadelphia.jpg",
     largeImage: "",
   },
 ];

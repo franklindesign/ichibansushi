@@ -7,7 +7,7 @@ const warmAppetizers = [
     name: "Baked Green Mussel (5 Pieces)",
     description: "5 pieces of baked green mussels",
     price: 9.95,
-    image: "../static/items/hotAppetizers/BakedGreenMussels.jpg",
+    image: "/static/items/hotAppetizers/BakedGreenMussels.jpg",
     largeImage: "",
   },
   {
@@ -15,7 +15,7 @@ const warmAppetizers = [
     name: "Steamed Edamame",
     description: "boiled edamame",
     price: 4.95,
-    image: "../static/items/hotAppetizers/SteamedEdamame.jpg",
+    image: "/static/items/hotAppetizers/SteamedEdamame.jpg",
     largeImage: "",
   },
   {
@@ -23,7 +23,7 @@ const warmAppetizers = [
     name: "Garlic Edamame (Spicy)",
     description: "delicately sauteed soybeans with sea salt and garlic",
     price: 7.95,
-    image: "../static/items/hotAppetizers/GarlicEdamame.jpg",
+    image: "/static/items/hotAppetizers/GarlicEdamame.jpg",
     largeImage: "",
   },
   {
@@ -31,7 +31,7 @@ const warmAppetizers = [
     name: "Shrimp Tempura",
     description: "4 pieces of shrimp tempura.",
     price: 9.95,
-    image: "../static/items/hotAppetizers/ShrimpTempura.jpg",
+    image: "/static/items/hotAppetizers/ShrimpTempura.jpg",
     largeImage: "",
   },
   {
@@ -39,7 +39,7 @@ const warmAppetizers = [
     name: "Vegetable Tempura",
     description: "5 pieces of vegetable tempura.",
     price: 8.95,
-    image: "../static/items/hotAppetizers/VegetableTempura.jpg",
+    image: "/static/items/hotAppetizers/VegetableTempura.jpg",
     largeImage: "",
   },
   {
@@ -47,7 +47,7 @@ const warmAppetizers = [
     name: "Calamari Tempura",
     description: "Multiple pieces of calamari tempura.",
     price: 11.95,
-    image: "../static/items/hotAppetizers/CalamariTempura.jpg",
+    image: "/static/items/hotAppetizers/CalamariTempura.jpg",
     largeImage: "",
   },
   {
@@ -55,7 +55,7 @@ const warmAppetizers = [
     name: "Mixed Tempura",
     description: "Multiple pieces of shrimp and vegetable tempura.",
     price: 11.95,
-    image: "../static/items/hotAppetizers/MixedTempura.jpg",
+    image: "/static/items/hotAppetizers/MixedTempura.jpg",
     largeImage: "",
   },
   {
@@ -63,7 +63,7 @@ const warmAppetizers = [
     name: "Gyoza Potstickers",
     description: "6 lightly fried pork and vegetable potstickers (gyoza). ",
     price: 7.95,
-    image: "../static/items/hotAppetizers/Gyoza.jpg",
+    image: "/static/items/hotAppetizers/Gyoza.jpg",
     largeImage: "",
   },
   {
@@ -71,7 +71,7 @@ const warmAppetizers = [
     name: "Shumai Dumplings",
     description: "Lightly fried shrimp and vegetable dumplings (6 pieces)",
     price: 7.95,
-    image: "../static/items/hotAppetizers/Shumai.jpg",
+    image: "/static/items/hotAppetizers/Shumai.jpg",
     largeImage: "",
   },
   {
@@ -80,7 +80,7 @@ const warmAppetizers = [
     description:
       "Baked crab, scallop, shrimp, onion, mushroom with dynamite sauce.",
     price: 11.95,
-    image: "../static/items/hotAppetizers/Dynamite.jpg",
+    image: "/static/items/hotAppetizers/Dynamite.jpg",
     largeImage: "",
   },
   {
@@ -88,7 +88,7 @@ const warmAppetizers = [
     name: "Lobster Dynamite",
     description: "Baked lobster with dynamite sauce.",
     price: 16.95,
-    image: "../static/items/hotAppetizers/lobsterDynamite.jpg",
+    image: "/static/items/hotAppetizers/lobsterDynamite.jpg",
     largeImage: "",
   },
   {
@@ -96,7 +96,7 @@ const warmAppetizers = [
     name: "Soft Shell Crab",
     description: "fried soft shell crab with ponzu sauce",
     price: 13.95,
-    image: "../static/items/hotAppetizers/SoftShellCrab.jpg",
+    image: "/static/items/hotAppetizers/SoftShellCrab.jpg",
     largeImage: "",
   },
   {
@@ -104,7 +104,7 @@ const warmAppetizers = [
     name: "Deep Fried Tofu",
     description: "Fried tofu with masago, bonito, and green onions.",
     price: 7.95,
-    image: "../static/items/hotAppetizers/DeepFriedTofu.jpg",
+    image: "/static/items/hotAppetizers/DeepFriedTofu.jpg",
     largeImage: "",
   },
   {
@@ -112,7 +112,7 @@ const warmAppetizers = [
     name: "Shishito Peppers",
     description: "Slightly sweet sauteed peppers.",
     price: 9.95,
-    image: "../static/items/hotAppetizers/Shishito.jpg",
+    image: "/static/items/hotAppetizers/Shishito.jpg",
     largeImage: "",
   },
   {
@@ -120,7 +120,7 @@ const warmAppetizers = [
     name: "Steamed Dimsum (5 Pieces)",
     description: "5 pieces of shrimp or pork dumplings.",
     price: 9.95,
-    image: "../static/items/hotAppetizers/Dimsum.jpg",
+    image: "/static/items/hotAppetizers/Dimsum.jpg",
     largeImage: "",
   },
 
@@ -129,7 +129,7 @@ const warmAppetizers = [
     name: "Sesame Chicken",
     description: "Lightly fried chicken marinated in sesame sauce.",
     price: 9.95,
-    image: "../static/items/hotAppetizers/sesameChicken.jpg",
+    image: "/static/items/hotAppetizers/sesameChicken.jpg",
     largeImage: "",
   },
   {
@@ -137,7 +137,7 @@ const warmAppetizers = [
     name: "Salmon Collar",
     description: "Broiled salmon collar.",
     price: 9.95,
-    image: "../static/items/hotAppetizers/SalmonCollar.jpg",
+    image: "/static/items/hotAppetizers/SalmonCollar.jpg",
     largeImage: "",
   },
   {
@@ -145,7 +145,7 @@ const warmAppetizers = [
     name: "Yellowtail Collar",
     description: "Broiled yellowtail collar.",
     price: 12.95,
-    image: "../static/items/hotAppetizers/YellowtailCollar.jpg",
+    image: "/static/items/hotAppetizers/YellowtailCollar.jpg",
     largeImage: "",
   },
 
@@ -154,7 +154,7 @@ const warmAppetizers = [
     name: "Spicy Tofu",
     description: "Fried tofu with spicy sauce.",
     price: 9.95,
-    image: "../static/items/hotAppetizers/SpicyTofu.jpg",
+    image: "/static/items/hotAppetizers/SpicyTofu.jpg",
     largeImage: "",
   },
   {
@@ -163,7 +163,7 @@ const warmAppetizers = [
     description:
       "Deep fried jalapeno, cream cheese, spicy tuna with eel sauce and masago.",
     price: 11.95,
-    image: "../static/items/hotAppetizers/heartAttack.jpg",
+    image: "/static/items/hotAppetizers/heartAttack.jpg",
     largeImage: "",
   },
 ];

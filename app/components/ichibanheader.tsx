@@ -101,13 +101,13 @@ export default function IchibanHeader() {
                 <Bars3Icon aria-hidden="true" className="size-6" />
               </button>
             </div>
-            <div className="hidden lg:flex lg:gap-x-12">
+            <div className="hidden lg:flex">
               {navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
                   target="_blank"
-                  className="text-sm/6 font-semibold dark:text-white text-black hover:text-black hover:bg-red-200 block rounded-2xl p-2"
+                  className="px-4 py-2 text-sm/6 font-semibold dark:text-white text-black hover:text-black hover:bg-red-200 block rounded-2xl"
                 >
                   {item.name}
                 </a>

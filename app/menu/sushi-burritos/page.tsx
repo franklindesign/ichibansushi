@@ -8,7 +8,7 @@ const sushiBurritos = [
     description:
       "spicy tuna, shrimp tempura, avocado, special crab meat, jalapeno, green lettuce. hot cheetos, chili oil, and spicy mayo",
     price: 13.95,
-    image: "../static/items/sushiBurritos/IronManBurrito.jpg",
+    image: "/static/items/sushiBurritos/IronManBurrito.jpg",
     largeImage: "",
   },
   {
@@ -17,7 +17,7 @@ const sushiBurritos = [
     description:
       "salmon, spicy tuna, avocado, crispy onion, masago, green onion, yuzu ponzu sauce",
     price: 13.95,
-    image: "../static/items/sushiBurritos/SpiderManBurrito.jpg",
+    image: "/static/items/sushiBurritos/SpiderManBurrito.jpg",
     largeImage: "",
   },
   {
@@ -26,7 +26,7 @@ const sushiBurritos = [
     description:
       "eel, crab meat, avocado, cucumber. eel sauce.",
     price: 13.95,
-    image: "../static/items/sushiBurritos/BatmanBurrito.jpg",
+    image: "/static/items/sushiBurritos/BatmanBurrito.jpg",
     largeImage: "",
   },
   {
@@ -35,7 +35,7 @@ const sushiBurritos = [
     description:
       "Spicy tuna, shrimp, asparagus tempura, avocado, cucumber, soy paper, with eel & spicy mayo sauce.",
     price: 13.95,
-    image: "../static/items/sushiBurritos/SupermanBurrito.jpg",
+    image: "/static/items/sushiBurritos/SupermanBurrito.jpg",
     largeImage: "",
   },
 ];

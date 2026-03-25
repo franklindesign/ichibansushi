@@ -7,7 +7,7 @@ const beverages = [
     name: "Hot Tea",
     description: " ",
     price: "1.95",
-    image: "../static/items/beverages/hottea.jpg",
+    image: "/static/items/beverages/hottea.jpg",
     largeImage: "",
   },
   {
@@ -15,7 +15,7 @@ const beverages = [
     name: "Soda",
     description: "pepsi, diet pepsi, sierra mist, dr.pepper, lemonade",
     price: "2.95",
-    image: "../static/items/beverages/soda.jpg",
+    image: "/static/items/beverages/soda.jpg",
     largeImage: "",
   },
   {
@@ -23,7 +23,7 @@ const beverages = [
     name: "Sparkling Water ",
     description: "Perrier",
     price: "3.50",
-    image: "../static/items/beverages/perrier.jpg",
+    image: "/static/items/beverages/perrier.jpg",
     largeImage: "",
   },
   {
@@ -31,7 +31,7 @@ const beverages = [
     name: "Bottled Water ",
     description: "VOSS OR FIJI",
     price: "3.50",
-    image: "../static/items/beverages/bottle.jpg",
+    image: "/static/items/beverages/bottle.jpg",
     largeImage: "",
   },
   {
@@ -39,7 +39,7 @@ const beverages = [
     name: "Iced Tea",
     description: "Regular or Raspberry",
     price: "2.95",
-    image: "../static/items/beverages/raspberry.jpg",
+    image: "/static/items/beverages/raspberry.jpg",
     largeImage: "",
   },
 
@@ -48,7 +48,7 @@ const beverages = [
     name: "Ramune",
     description: "Japanese carbonated soft drink",
     price: 2.95,
-    image: "../static/items/beverages/ramune.jpg",
+    image: "/static/items/beverages/ramune.jpg",
     largeImage: "",
   },
   {
@@ -56,7 +56,7 @@ const beverages = [
     name: "Iced Green Tea",
     description: " ",
     price: 2.95,
-    image: "../static/items/beverages/icedgreentea.jpg",
+    image: "/static/items/beverages/icedgreentea.jpg",
     largeImage: "",
   },
   {
@@ -64,7 +64,7 @@ const beverages = [
     name: "Arnold Palmer",
     description: "non-alcoholic ",
     price: 3.5,
-    image: "../static/items/beverages/arnoldpalmer.jpg",
+    image: "/static/items/beverages/arnoldpalmer.jpg",
     largeImage: "",
   },
   {
@@ -72,7 +72,7 @@ const beverages = [
     name: "Shirley Temple",
     description: "non-alcoholic",
     price: 3.5,
-    image: "../static/items/beverages/sherley.jpg",
+    image: "/static/items/beverages/sherley.jpg",
     largeImage: "",
   },
   {
@@ -80,7 +80,7 @@ const beverages = [
     name: "Strawberry Lemonade",
     description: " ",
     price: 3.5,
-    image: "../static/items/beverages/strawberrylemonade.jpg",
+    image: "/static/items/beverages/strawberrylemonade.jpg",
     largeImage: "",
   },
   {
@@ -88,7 +88,7 @@ const beverages = [
     name: "Apple Juice",
     description: " ",
     price: 2.95,
-    image: "../static/items/beverages/applejuice.jpg",
+    image: "/static/items/beverages/applejuice.jpg",
     largeImage: "",
   },
 ];

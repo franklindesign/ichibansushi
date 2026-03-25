@@ -1,6 +1,6 @@
 import Card from "@/app/components/card";
 
-const NoImage = "../static/items/NoImageSushi.jpg";
+const NoImage = "/static/items/NoImageSushi.jpg";
 
 const sushis = [
   {
@@ -8,7 +8,7 @@ const sushis = [
     name: "Albacore (sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: "../static/items/nigiri/albacore-nigiri.jpg",
+    image: "/static/items/nigiri/albacore-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -16,7 +16,7 @@ const sushis = [
     name: "Crab (sushi)",
     description: "2 pieces",
     price: "4.50",
-    image: "../static/items/nigiri/crab-nigiri.jpg",
+    image: "/static/items/nigiri/crab-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const sushis = [
     name: "Escolar (ono sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: "../static/items/nigiri/escolar-nigiri.jpg",
+    image: "/static/items/nigiri/escolar-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -32,7 +32,7 @@ const sushis = [
     name: "Egg (tamago sushi)",
     description: "2 pieces",
     price: "4.50",
-    image: "../static/items/nigiri/tamago-nigiri.jpg",
+    image: "/static/items/nigiri/tamago-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -40,7 +40,7 @@ const sushis = [
     name: "Fresh Water Eel (unagi sushi)",
     description: "2 pieces",
     price: "6.95",
-    image: "../static/items/nigiri/unagi-nigiri.jpg",
+    image: "/static/items/nigiri/unagi-nigiri.jpg",
     largeImage: "",
   },
 
@@ -49,7 +49,7 @@ const sushis = [
     name: "Inari (sushi)",
     description: "2 pieces",
     price: "4.50",
-    image: "../static/items/nigiri/inari-nigiri.jpg",
+    image: "/static/items/nigiri/inari-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -57,7 +57,7 @@ const sushis = [
     name: "Mackerel (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/nigiri/mackerel-nigiri.jpg",
+    image: "/static/items/nigiri/mackerel-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -65,7 +65,7 @@ const sushis = [
     name: "Octopus (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/nigiri/octopus-nigiri.jpg",
+    image: "/static/items/nigiri/octopus-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -73,7 +73,7 @@ const sushis = [
     name: "Red Clam (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/nigiri/redclam-nigiri.jpg",
+    image: "/static/items/nigiri/redclam-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -81,7 +81,7 @@ const sushis = [
     name: "Salmon (sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: "../static/items/nigiri/salmon-nigiri.jpg",
+    image: "/static/items/nigiri/salmon-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -89,7 +89,7 @@ const sushis = [
     name: "Salmon Egg (sushi)",
     description: "2 pieces",
     price: "7.95",
-    image: "../static/items/nigiri/salmonegg-nigiri.jpg",
+    image: "/static/items/nigiri/salmonegg-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -97,7 +97,7 @@ const sushis = [
     name: "Scallop (sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: "../static/items/nigiri/scallop-nigiri.jpg",
+    image: "/static/items/nigiri/scallop-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -105,7 +105,7 @@ const sushis = [
     name: "Shrimp (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/nigiri/shrimp-nigiri.jpg",
+    image: "/static/items/nigiri/shrimp-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -113,7 +113,7 @@ const sushis = [
     name: "Smelt Egg (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/nigiri/smeltegg-nigiri.jpg",
+    image: "/static/items/nigiri/smeltegg-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -121,7 +121,7 @@ const sushis = [
     name: "Squid (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/nigiri/squid-nigiri.jpg",
+    image: "/static/items/nigiri/squid-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -129,7 +129,7 @@ const sushis = [
     name: "Sweet Shrimp (sushi)",
     description: "2 pieces",
     price: "11.95",
-    image: "../static/items/nigiri/sweetshrimp-nigiri.jpg",
+    image: "/static/items/nigiri/sweetshrimp-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -137,7 +137,7 @@ const sushis = [
     name: "Tuna (sushi)",
     description: "2 pieces",
     price: "6.95",
-    image: "../static/items/nigiri/tuna-nigiri.jpg",
+    image: "/static/items/nigiri/tuna-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -145,7 +145,7 @@ const sushis = [
     name: "Uni (sea urchin sushi)",
     description: "2 pieces",
     price: "11.95",
-    image: "../static/items/nigiri/uni-nigiri.jpg",
+    image: "/static/items/nigiri/uni-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -153,7 +153,7 @@ const sushis = [
     name: "White Fish (sushi)",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/nigiri/whitefish-nigiri.jpg",
+    image: "/static/items/nigiri/whitefish-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -161,7 +161,7 @@ const sushis = [
     name: "Yellowtail (sushi)",
     description: "2 pieces",
     price: "6.50",
-    image: "../static/items/nigiri/yellowtail-nigiri.jpg",
+    image: "/static/items/nigiri/yellowtail-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -169,7 +169,7 @@ const sushis = [
     name: "Halibut (sushi)",
     description: "2 pieces",
     price: "6.95",
-    image: "../static/items/nigiri/halibut-nigiri.jpg",
+    image: "/static/items/nigiri/halibut-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -177,7 +177,7 @@ const sushis = [
     name: "Chu-toro (medium fatty tuna sushi)",
     description: "2 pieces",
     price: "11.95",
-    image: "../static/items/nigiri/chutoro-nigiri.jpg",
+    image: "/static/items/nigiri/chutoro-nigiri.jpg",
     largeImage: "",
   },
   {
@@ -185,7 +185,7 @@ const sushis = [
     name: "Otoro (high fatty tuna sushi)",
     description: "2 pieces",
     price: "13.95",
-    image: "../static/items/nigiri/otoro-nigiri.jpg",
+    image: "/static/items/nigiri/otoro-nigiri.jpg",
     largeImage: "",
   },
 ];

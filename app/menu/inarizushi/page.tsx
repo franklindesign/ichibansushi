@@ -1,12 +1,12 @@
 import Card from "@/app/components/card";
 
 const inari = [
-  { id: 1, name: "Beef Bulgogi", description: "", price: "5.95", image: "../static/items/inariSushi/bulgogi.jpg" },
-  { id: 2, name: "Spicy Tuna", description: "", price: "5.95", image: "../static/items/inariSushi/spicytuna.jpg" },
-  { id: 3, name: "Spicy Shrimp & Crab", description: "", price: "5.95", image: "../static/items/inariSushi/spicyshrimpcrab.jpg" },
-  { id: 4, name: "Grilled Eel", description: "", price: "5.95", image: "../static/items/inariSushi/grilledeel.jpg" },
-  { id: 5, name: "Spicy Shrimp", description: "", price: "5.95", image: "../static/items/inariSushi/spicyshrimp.jpg" },
-  { id: 6, name: "Spicy Salmon", description: "", price: "5.95", image: "../static/items/inariSushi/spicysalmon.jpg" },
+  { id: 1, name: "Beef Bulgogi", description: "", price: "5.95", image: "/static/items/inariSushi/bulgogi.jpg" },
+  { id: 2, name: "Spicy Tuna", description: "", price: "5.95", image: "/static/items/inariSushi/spicytuna.jpg" },
+  { id: 3, name: "Spicy Shrimp & Crab", description: "", price: "5.95", image: "/static/items/inariSushi/spicyshrimpcrab.jpg" },
+  { id: 4, name: "Grilled Eel", description: "", price: "5.95", image: "/static/items/inariSushi/grilledeel.jpg" },
+  { id: 5, name: "Spicy Shrimp", description: "", price: "5.95", image: "/static/items/inariSushi/spicyshrimp.jpg" },
+  { id: 6, name: "Spicy Salmon", description: "", price: "5.95", image: "/static/items/inariSushi/spicysalmon.jpg" },
 ];
 
 export default function Inarizushi() {

@@ -1,6 +1,6 @@
 import Card from "@/app/components/card";
 
-const NoImage = "../static/items/NoImageSushiRoll.jpg";
+const NoImage = "/static/items/NoImageSushiRoll.jpg";
 
 const regularRolls = [
   {
@@ -8,7 +8,7 @@ const regularRolls = [
     name: "California (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/maki/california.jpg",
+    image: "/static/items/maki/california.jpg",
     largeImage: "",
   },
   {
@@ -16,7 +16,7 @@ const regularRolls = [
     name: "Spicy Tuna (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: "../static/items/maki/spicytuna.jpg",
+    image: "/static/items/maki/spicytuna.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const regularRolls = [
     name: "Albacore (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/maki/albacore.jpg",
+    image: "/static/items/maki/albacore.jpg",
     largeImage: "",
   },
   {
@@ -32,7 +32,7 @@ const regularRolls = [
     name: "Avocado (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/maki/avocado.jpg",
+    image: "/static/items/maki/avocado.jpg",
     largeImage: "",
   },
   {
@@ -40,7 +40,7 @@ const regularRolls = [
     name: "Crab (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/maki/crab.jpg",
+    image: "/static/items/maki/crab.jpg",
     largeImage: "",
   },
 
@@ -49,7 +49,7 @@ const regularRolls = [
     name: "Cucumber (Cut Roll)",
     description: "6-8 pieces",
     price: "4.50",
-    image: "../static/items/maki/cucumber.jpg",
+    image: "/static/items/maki/cucumber.jpg",
     largeImage: "",
   },
   {
@@ -57,7 +57,7 @@ const regularRolls = [
     name: "Eel (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: "../static/items/maki/eel.jpg",
+    image: "/static/items/maki/eel.jpg",
     largeImage: "",
   },
   {
@@ -65,7 +65,7 @@ const regularRolls = [
     name: "Salmon (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: "../static/items/maki/salmon.jpg",
+    image: "/static/items/maki/salmon.jpg",
     largeImage: "",
   },
   {
@@ -73,7 +73,7 @@ const regularRolls = [
     name: "Salmon Skin (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/maki/salmonskin.jpg",
+    image: "/static/items/maki/salmonskin.jpg",
     largeImage: "",
   },
   {
@@ -81,7 +81,7 @@ const regularRolls = [
     name: "Scallop (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/maki/scallop.jpg",
+    image: "/static/items/maki/scallop.jpg",
     largeImage: "",
   },
   {
@@ -89,7 +89,7 @@ const regularRolls = [
     name: "Shrimp & Crab (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/maki/shrimpcrab.jpg",
+    image: "/static/items/maki/shrimpcrab.jpg",
     largeImage: "",
   },
   {
@@ -97,7 +97,7 @@ const regularRolls = [
     name: "Tuna (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: "../static/items/maki/tuna.jpg",
+    image: "/static/items/maki/tuna.jpg",
     largeImage: "",
   },
   {
@@ -105,7 +105,7 @@ const regularRolls = [
     name: "Vegetable (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/maki/vegetable.jpg",
+    image: "/static/items/maki/vegetable.jpg",
     largeImage: "",
   },
   {
@@ -113,7 +113,7 @@ const regularRolls = [
     name: "Yellowtail (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: "../static/items/maki/yellowtail.jpg",
+    image: "/static/items/maki/yellowtail.jpg",
     largeImage: "",
   },
   {
@@ -121,7 +121,7 @@ const regularRolls = [
     name: "Philadelphia (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: "../static/items/maki/philadelphia.jpg",
+    image: "/static/items/maki/philadelphia.jpg",
     largeImage: "",
   },
 ];

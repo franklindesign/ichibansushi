@@ -720,37 +720,37 @@
   {
     "id": 1101,
     "title": "Special Sushi Combo",
-    "href": "/menu/sushi-combo#1101",
+    "href": "/menu/sushi-combo",
     "section": "Sushi combo item"
   },
   {
     "id": 1102,
     "title": "Special Sashimi Combo",
-    "href": "/menu/sushi-combo#1102",
+    "href": "/menu/sushi-combo",
     "section": "Sushi combo item"
   },
   {
     "id": 1103,
     "title": "Unagi Bowl",
-    "href": "/menu/sushi-combo#1103",
+    "href": "/menu/sushi-combo",
     "section": "Sushi combo item"
   },
   {
     "id": 1104,
     "title": "Chirashi",
-    "href": "/menu/sushi-combo#1104",
+    "href": "/menu/sushi-combo",
     "section": "Sushi combo item"
   },
   {
     "id": 1105,
-    "title": "Sashimi Donburi#1105",
+    "title": "Sashimi Donburi",
     "href": "/menu/sushi-combo",
     "section": "Sushi combo item"
   },
   {
     "id": 1106,
     "title": "Ichiban Poke Bowl",
-    "href": "/menu/sushi-combo#1106",
+    "href": "/menu/sushi-combo",
     "section": "Sushi combo item"
   },
   {
@@ -780,13 +780,13 @@
    {
     "id": 1801,
     "title": "Ichiban Bento Box",
-    "href": "/menu/bento-box#ichibanbentobox",
+    "href": "/menu/bento-box",
     "section": "Bento box item"
   },
    {
     "id": 1802,
     "title": "Korean Bento Box",
-    "href": "/menu/bento-box#koreanbentobox",
+    "href": "/menu/bento-box",
     "section": "Bento box item"
   },
   {

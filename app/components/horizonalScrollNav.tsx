@@ -31,7 +31,7 @@ const categories = [
 
 export default function HorizonalScrollNav() {
   return (
-    <div className="md:hidden max-w-dvw">
+    <div className="sm:hidden lg:hidden max-w-dvw">
       <nav className="flex overflow-x-scroll space-x-2 p-2  touch-pan-x bg-white dark:bg-black text-black dark:text-white rounded-xl">
         {categories.map((category) => (
           <Link

@@ -1,6 +1,7 @@
 "use client";
 import type { FC, TouchEvent } from "react";
 import { useRef, useState } from "react";
+import Image from "next/image";
  
 
 type ScrollCard = {
@@ -15,43 +16,43 @@ const cards: ScrollCard[] = [
     id: 1,
     title: "Rainbow Roll",
     subtitle: "Fresh roll w/ four kinds of fish and avocado.",
-    image: "../static/items/freshRolls/RainbowRoll.jpg",
+    image: "/static/items/freshRolls/RainbowRoll.jpg",
   },
   {
     id: 2,
     title: "Albacore Delight Roll",
-    subtitle: "Fresh roll w/ albacore, onions, masago...",
-    image: "../static/items/freshRolls/AlbacoreDelightRoll.jpg",
+    subtitle: "Fresh roll w/ albacore, onions, masago.",
+    image: "/static/items/freshRolls/AlbacoreDelightRoll.jpg",
   },
   {
     id: 3,
     title: "California Cut Roll",
     subtitle: "Classic California maki. ",
-    image: "../static/items/mostLikedItems/californiaCutRoll.jpg",
+    image: "/static/items/mostLikedItems/californiaCutRoll.jpg",
   },
   {
     id: 4,
     title: "Sean's Roll",
-    subtitle: "Tempura roll w/ salmon, shrimp, avocado...",
-    image: "../static/items/tempurarolls/seanRoll.jpg",
+    subtitle: "Tempura roll w/ salmon, shrimp, avocado.",
+    image: "/static/items/tempurarolls/seanRoll.jpg",
   },
   {
     id: 5,
     title: "Spider Man Sushi Burrito",
-    subtitle: "Soy paper w/ salmon, spicy tuna, avocado...",
-    image: "../static/items/sushiBurritos/SpiderManBurrito.jpg",
+    subtitle: "Soy paper w/ salmon, spicy tuna, avocado.",
+    image: "/static/items/sushiBurritos/SpiderManBurrito.jpg",
   },
   {
     id: 6,
     title: "Spicy Shrimp & Crab Inari",
     subtitle: "Inarizushi w/ spicy shrimp & crab",
-    image: "../static/items/inariSushi/spicyshrimp.jpg",
+    image: "/static/items/inariSushi/spicyshrimp.jpg",
   },
   {
     id: 7,
     title: "Baked Green Mussel (5 Pieces)",
     subtitle: "Five pieces of baked green mussels",
-    image: "../static/items/hotAppetizers/BakedGreenMussels.jpg"
+    image: "/static/items/hotAppetizers/BakedGreenMussels.jpg"
   },
 ];
 
@@ -109,16 +110,16 @@ const HorizontalCardScroll: FC = () => {
         {shuffledCards.map((card) => (
           <article
             key={card.id}
-            className="min-w-75 rounded-xl border border-slate-200 bg-white p-3 shadow-sm"
+            className="min-w-75 rounded-2xl border bg-white p-3 shadow-sm"
           >
-            <img
-              loading="lazy"
-              suppressHydrationWarning={true}
+            <Image
+              loading="eager"
               src={card.image}
               alt={card.title}
               width={300}
-              height={300}
-              className="h-75 w-75 rounded-lg object-cover"
+              height={200}
+              quality={75}
+              className="rounded-2xl object-cover"
             />
             <h3 className="mt-3 text-lg font-semibold text-slate-900">
               {card.title}

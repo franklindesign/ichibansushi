@@ -6,7 +6,7 @@ const desserts = [
     name: "Ice Cream",
     description: "green tea or vanilla",
     price: "3.50",
-    image: "../static/items/desserts/icecream.jpg",
+    image: "/static/items/desserts/icecream.jpg",
     largeImage: "",
   },
   {
@@ -14,7 +14,7 @@ const desserts = [
     name: "Mochi Ice Cream",
     description: "green tea, mango, or strawberry",
     price: "2.50",
-    image: "../static/items/desserts/mochi.jpg",
+    image: "/static/items/desserts/mochi.jpg",
     largeImage: "",
   },
   {
@@ -22,7 +22,7 @@ const desserts = [
     name: "Tempura Ice Cream",
     description: "green tea or vanilla",
     price: "8.95",
-    image: "../static/items/desserts/tempuraicecream.jpg",
+    image: "/static/items/desserts/tempuraicecream.jpg",
     largeImage: "",
   },
   {
@@ -30,7 +30,7 @@ const desserts = [
     name: "Tempura Cheese Cake",
     description: "green tea or vanilla",
     price: "8.95",
-    image: "../static/items/desserts/tempuraCheeseCake.jpg",
+    image: "/static/items/desserts/tempuraCheeseCake.jpg",
     largeImage: "",
   },
   {
@@ -38,7 +38,7 @@ const desserts = [
     name: "MACARON Gelato Sandwiches",
     description: "multiple flavors",
     price: "4.50",
-    image: "../static/items/desserts/macaron.jpg",
+    image: "/static/items/desserts/macaron.jpg",
     largeImage: "",
   },
 ];

@@ -7,7 +7,7 @@ const beerAndWines = [
     name: "Kizakura Beer",
     description: "Lucky Cat, Lucky Cat, Matcha IPA",
     price: 11,
-    image: "../static/items/wineBeer/beerKizakura.jpg",
+    image: "/static/items/wineBeer/beerKizakura.jpg",
     largeImage: "",
   },
   {
@@ -15,7 +15,7 @@ const beerAndWines = [
     name: "Beer Bottles",
     description: "Kirin, Kirin Light, Sapporo, and Asahi",
     price: 8,
-    image: "../static/items/wineBeer/beerBottles.jpg",
+    image: "/static/items/wineBeer/beerBottles.jpg",
     largeImage: "",
   },
   {
@@ -23,7 +23,7 @@ const beerAndWines = [
     name: "Draft Sapporo Beer (Glass)",
     description: "draft beer, glass",
     price: 4.95,
-    image: "../static/items/wineBeer/beerGlass.jpg",
+    image: "/static/items/wineBeer/beerGlass.jpg",
     largeImage: "",
   },
   {
@@ -31,7 +31,7 @@ const beerAndWines = [
     name: "Draft Sapporo Beer (Pitcher)",
     description: "draft beer, pitcher",
     price: 15,
-    image: "../static/items/wineBeer/beerPitcher.jpg",
+    image: "/static/items/wineBeer/beerPitcher.jpg",
     largeImage: "",
   },
   {
@@ -39,7 +39,7 @@ const beerAndWines = [
     name: "Draft Sapporo Beer (Tower)",
     description: "draft beer, pitcher",
     price: 28,
-    image: "../static/items/wineBeer/beerTower.jpg",
+    image: "/static/items/wineBeer/beerTower.jpg",
     largeImage: "",
   },
   {
@@ -47,7 +47,7 @@ const beerAndWines = [
     name: "Rose (Glass)",
     description: "white wine, glass",
     price: 8,
-    image: "../static/items/wineBeer/whiteWineGlass.jpg",
+    image: "/static/items/wineBeer/whiteWineGlass.jpg",
     largeImage: "",
   },
   {
@@ -55,7 +55,7 @@ const beerAndWines = [
     name: "Rose (Bottle)",
     description: "white wine, glass",
     price: 28,
-    image: "../static/items/wineBeer/whiteWineGlass.jpg",
+    image: "/static/items/wineBeer/whiteWineGlass.jpg",
     largeImage: "",
   },
   {
@@ -63,7 +63,7 @@ const beerAndWines = [
     name: "Chardonnay (Glass)",
     description: "Kendall Jackson, white wine, glass",
     price: 8,
-    image: "../static/items/wineBeer/whiteWineGlass.jpg",
+    image: "/static/items/wineBeer/whiteWineGlass.jpg",
     largeImage: "",
   },
   {
@@ -71,7 +71,7 @@ const beerAndWines = [
     name: "Chardonnay (Bottle)",
     description: "Kendall Jackson, white wine, bottle",
     price: 28,
-    image: "../static/items/wineBeer/whiteWineBottle.jpg",
+    image: "/static/items/wineBeer/whiteWineBottle.jpg",
     largeImage: "",
   },
   {
@@ -79,7 +79,7 @@ const beerAndWines = [
     name: "Plum Wine",
     description: "white wine, glass",
     price: 8,
-    image: "../static/items/wineBeer/whiteWineGlass.jpg",
+    image: "/static/items/wineBeer/whiteWineGlass.jpg",
     largeImage: "",
   },
   {
@@ -87,7 +87,7 @@ const beerAndWines = [
     name: "Cabernet Sauvignon (Glass)",
     description: "Clos Du Bois, red wine, glass",
     price: 11,
-    image: "../static/items/wineBeer/redWineGlass.jpg",
+    image: "/static/items/wineBeer/redWineGlass.jpg",
     largeImage: "",
   },
   {
@@ -95,7 +95,7 @@ const beerAndWines = [
     name: "Cabernet Sauvignon (Bottle)",
     description: "Clos Du Bois, red wine, bottle",
     price: 36,
-    image: "../static/items/wineBeer/redWineBottle.jpg",
+    image: "/static/items/wineBeer/redWineBottle.jpg",
     largeImage: "",
   },
   {
@@ -103,7 +103,7 @@ const beerAndWines = [
     name: "Pinot Noir (Glass)",
     description: "red wine, glass",
     price: 9,
-    image: "../static/items/wineBeer/redWineGlass.jpg",
+    image: "/static/items/wineBeer/redWineGlass.jpg",
     largeImage: "",
   },
   {
@@ -111,7 +111,7 @@ const beerAndWines = [
     name: "Pinot Noir (Bottle)",
     description: "red wine, glass",
     price: 32,
-    image: "../static/items/wineBeer/pinotBottle.jpg",
+    image: "/static/items/wineBeer/pinotBottle.jpg",
     largeImage: "",
   },
 ];

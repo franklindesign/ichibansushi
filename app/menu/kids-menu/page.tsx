@@ -1,6 +1,6 @@
 import Card from "@/app/components/card";
 
-const NoImage = "../static/items/NoImage.jpg";
+const NoImage = "/static/items/NoImage.jpg";
 
 const kidsMenu = [
   {
@@ -8,7 +8,7 @@ const kidsMenu = [
     name: "Kid's Chicken Bowl",
     description: "kids' portion of chicken don",
     price: 7.95,
-    image: "../static/items/entrees/ChickenBowl.jpg",
+    image: "/static/items/entrees/ChickenBowl.jpg",
     largeImage: "",
   },
   {
@@ -16,7 +16,7 @@ const kidsMenu = [
     name: "Kid's Beef Bowl",
     description: "kids' portion of beef don",
     price: 9.95,
-    image: "../static/items/entrees/BeefBowl.jpg",
+    image: "/static/items/entrees/BeefBowl.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const kidsMenu = [
     name: "Kid's Bulgogi Bowl",
     description: "kids' portion of bulgogi don",
     price: 9.95,
-    image: "../static/items/entrees/BulgogiBowl.jpg",
+    image: "/static/items/entrees/BulgogiBowl.jpg",
     largeImage: "",
   },
 ];

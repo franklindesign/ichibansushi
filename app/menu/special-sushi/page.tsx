@@ -1,6 +1,6 @@
 import Card from "@/app/components/card";
 
-const NoImage = "../static/items/NoImageSushi.jpg";
+const NoImage = "/static/items/NoImageSushi.jpg";
 
 const specialSushi = [
   

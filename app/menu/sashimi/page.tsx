@@ -6,7 +6,7 @@ const sashimis = [
     name: "Albacore (5-6 pieces)",
     description: "",
     price: "16.95",
-    image: "../static/items/sashimi/albacore-sashimi.jpg",
+    image: "/static/items/sashimi/albacore-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -14,7 +14,7 @@ const sashimis = [
     name: "Big Scallop (5-6 pieces)",
     description: " ",
     price: "19.95",
-    image: "../static/items/sashimi/bigscallop-sashimi.jpg",
+    image: "/static/items/sashimi/bigscallop-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -22,7 +22,7 @@ const sashimis = [
     name: "Cajun Tuna (5-6 pieces)",
     description: " ",
     price: "16.95",
-    image: "../static/items/sashimi/cajuntuna-sashimi.jpg",
+    image: "/static/items/sashimi/cajuntuna-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -30,7 +30,7 @@ const sashimis = [
     name: "Escolar (5-6 pieces)",
     description: " ",
     price: "16.95",
-    image: "../static/items/sashimi/escolar-sashimi.jpg",
+    image: "/static/items/sashimi/escolar-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -38,7 +38,7 @@ const sashimis = [
     name: "Halibut (5-6 pieces)",
     description: " ",
     price: "18.95",
-    image: "../static/items/sashimi/halibut-sashimi.jpg",
+    image: "/static/items/sashimi/halibut-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -46,7 +46,7 @@ const sashimis = [
     name: "Octopus (5-6 pieces)",
     description: " ",
     price: "14.95",
-    image: "../static/items/sashimi/octopus-sashimi.jpg",
+    image: "/static/items/sashimi/octopus-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -54,7 +54,7 @@ const sashimis = [
     name: "Tuna (5-6 pieces)",
     description: " ",
     price: "18.95",
-    image: "../static/items/sashimi/tuna-sashimi.jpg",
+    image: "/static/items/sashimi/tuna-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -62,7 +62,7 @@ const sashimis = [
     name: "Salmon (5-6 pieces)",
     description: "",
     price: "16.95",
-    image: "../static/items/sashimi/salmon-sashimi.jpg",
+    image: "/static/items/sashimi/salmon-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -70,7 +70,7 @@ const sashimis = [
     name: "Yellowtail (5-6 pieces)",
     description: " ",
     price: "18.95",
-    image: "../static/items/sashimi/yellowtail-sashimi.jpg",
+    image: "/static/items/sashimi/yellowtail-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -78,7 +78,7 @@ const sashimis = [
     name: "Chu-toro (5-6 pieces)",
     description: "(ask for availability)",
     price: "24.95",
-    image: "../static/items/sashimi/chu-toro-sashimi.jpg",
+    image: "/static/items/sashimi/chu-toro-sashimi.jpg",
     largeImage: "",
   },
   {
@@ -86,7 +86,7 @@ const sashimis = [
     name: "Otoro (5-6 pieces)",
     description: "",
     price: "29.95",
-    image: "../static/items/sashimi/otoro-sashimi.jpg",
+    image: "/static/items/sashimi/otoro-sashimi.jpg",
     largeImage: "",
   },
 ];

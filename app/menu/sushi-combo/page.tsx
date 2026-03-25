@@ -8,7 +8,7 @@ const sushiCombo = [
     description:
       "California roll or spicy tuna; 10 pieces sushi: tuna, salmon, albacore, white fish, or shrimр. Includes miso soup.",
     price: 27.95,
-    image: "../static/items/sushiCombo/specialSushi.jpg",
+    image: "/static/items/sushiCombo/specialSushi.jpg",
     largeImage: "",
   },
   {
@@ -17,7 +17,7 @@ const sushiCombo = [
     description:
       "12 pieces of sashimi: tuna, salmon, albacore or yellowtail. Includes miso soup.",
     price: 28.95,
-    image: "../static/items/sushiCombo/specialSashimi.jpg",
+    image: "/static/items/sushiCombo/specialSashimi.jpg",
     largeImage: "",
   },
   {
@@ -26,7 +26,7 @@ const sushiCombo = [
     description:
       "Broiled eel and avocado on a bowl of sushi rice. Includes miso soup.",
     price: 24.95,
-    image: "../static/items/sushiCombo/unagiBowl.jpg",
+    image: "/static/items/sushiCombo/unagiBowl.jpg",
     largeImage: "",
   },
   {
@@ -35,7 +35,7 @@ const sushiCombo = [
     description:
       "Multiple pieces of big scallops sashimi.",
     price: 21.95,
-    image: "../static/items/sushiCombo/bigScallops.jpg",
+    image: "/static/items/sushiCombo/bigScallops.jpg",
     largeImage: "",
   },
    {
@@ -44,7 +44,7 @@ const sushiCombo = [
     description:
       "Mixed sashimi on a bowl of sushi rice. Includes miso soup.",
     price: 27.95,
-    image: "../static/items/sushiCombo/chirashi.jpg",
+    image: "/static/items/sushiCombo/chirashi.jpg",
     largeImage: "",
   },
    {
@@ -53,7 +53,7 @@ const sushiCombo = [
     description:
       "Korean-style poke with tuna and salmon on rice, spring mix, masago, seaweed salad, vegetables, hot sauce, sesame oil, and seed. Includes miso soup.",
     price: 21.95,
-    image: "../static/items/sushiCombo/sashimiDonburi.jpg",
+    image: "/static/items/sushiCombo/sashimiDonburi.jpg",
     largeImage: "",
   },
     {
@@ -62,7 +62,7 @@ const sushiCombo = [
     description:
       "Tuna, salmon, scallop on rice, spring mix, masago, seaweed, avocado, and crabmeat. Includes miso soup.",
     price: 21.95,
-    image: "../static/items/sushiCombo/ichibanPokeBowl.jpg",
+    image: "/static/items/sushiCombo/ichibanPokeBowl.jpg",
     largeImage: "",
   },
 ];

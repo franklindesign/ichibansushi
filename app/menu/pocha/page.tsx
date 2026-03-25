@@ -1,6 +1,6 @@
 import Card from "@/app/components/card";
 
-const NoImage = "../static/items/NoImage.jpg";
+const NoImage = "/static/items/NoImage.jpg";
 
 const pochaMenu = [
   {
@@ -8,7 +8,7 @@ const pochaMenu = [
     name: "Chicken Skewers",
     description: " ",
     price: "11.95",
-    image: "../static/items/pocha/chickenSkewers.jpg",
+    image: "/static/items/pocha/chickenSkewers.jpg",
     largeImage: "",
   },
   {
@@ -16,7 +16,7 @@ const pochaMenu = [
     name: "Beef (Galbi) Skewers",
     description: " ",
     price: "16.95",
-    image: "../static/items/pocha/beefSkewers.jpg",
+    image: "/static/items/pocha/beefSkewers.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const pochaMenu = [
     name: "Scallop Skewers",
     description: " ",
     price: "16.95",
-    image: "../static/items/pocha/scallopSkewers.jpg",
+    image: "/static/items/pocha/scallopSkewers.jpg",
     largeImage: "",
   },
    {
@@ -32,7 +32,7 @@ const pochaMenu = [
     name: "Shrimp Skewers",
     description: " ",
     price: "16.95",
-    image: "../static/items/pocha/shrimpSkewers.jpg",
+    image: "/static/items/pocha/shrimpSkewers.jpg",
     largeImage: "",
   },
    {
@@ -40,7 +40,7 @@ const pochaMenu = [
     name: "Squid Skewers",
     description: " ",
     price: "11.95",
-    image: "../static/items/pocha/squidSkewers.jpg",
+    image: "/static/items/pocha/squidSkewers.jpg",
     largeImage: "",
   },
    {
@@ -48,7 +48,7 @@ const pochaMenu = [
     name: "Topokki",
     description: " ",
     price: "16.95",
-    image: "../static/items/pocha/topokki.jpg",
+    image: "/static/items/pocha/topokki.jpg",
     largeImage: "",
   },
    {
@@ -56,7 +56,7 @@ const pochaMenu = [
     name: "Kimchi Gyoza",
     description: " ",
     price: "9.95",
-    image: "../static/items/pocha/kimchiGyoza.jpg",
+    image: "/static/items/pocha/kimchiGyoza.jpg",
     largeImage: "",
   },
    {
@@ -64,7 +64,7 @@ const pochaMenu = [
     name: "Spicy Chicken Wings",
     description: "10 pieces of spicy chicken wings",
     price: "24.95",
-    image: "../static/items/pocha/spicyChickenWings.jpg",
+    image: "/static/items/pocha/spicyChickenWings.jpg",
     largeImage: "",
   },
    {
@@ -72,7 +72,7 @@ const pochaMenu = [
     name: "Fried Chicken Wings",
     description: "10 pieces of fried chicken wings",
     price: "24.95",
-    image: "../static/items/pocha/chickenWings.jpg",
+    image: "/static/items/pocha/chickenWings.jpg",
     largeImage: "",
   },
    {
@@ -80,7 +80,7 @@ const pochaMenu = [
     name: "Fish Cake Soup (Oden Tang)",
     description: "",
     price: "16.95",
-    image: "../static/items/pocha/fishCakeSoup.jpg",
+    image: "/static/items/pocha/fishCakeSoup.jpg",
     largeImage: "",
   },
   

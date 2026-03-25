@@ -6,7 +6,7 @@ const sakes = [
     name: "House Hot Sake",
     description: " ",
     price: 8,
-    image: "../static/items/sake/sake.jpg",
+    image: "/static/items/sake/sake.jpg",
     largeImage: "",
   },
   {
@@ -14,7 +14,7 @@ const sakes = [
     name: "Plum Hot Sake (Large)",
     description: " ",
     price: 14,
-    image: "../static/items/sake/plumHotSake.jpg",
+    image: "/static/items/sake/plumHotSake.jpg",
     largeImage: "",
   },
   {
@@ -22,7 +22,7 @@ const sakes = [
     name: "Soju",
     description: "Original (375ml)",
     price: 13,
-    image: "../static/items/sake/jinro_chamisul.jpg",
+    image: "/static/items/sake/jinro_chamisul.jpg",
     largeImage: "",
   },
   {
@@ -30,7 +30,7 @@ const sakes = [
     name: "Soju (Flavored)",
     description: "Peach, Pineapple (375ml)",
     price: 13,
-    image: "../static/items/sake/chamisul_flavored.jpg",
+    image: "/static/items/sake/chamisul_flavored.jpg",
     largeImage: "",
   },
   {
@@ -38,7 +38,7 @@ const sakes = [
     name: "Nigori Sake",
     description: "original and sakura, cold sake, (300ml)",
     price: 13,
-    image: "../static/items/sake/nigori.jpg",
+    image: "/static/items/sake/nigori.jpg",
     largeImage: "",
   },
   {
@@ -46,7 +46,7 @@ const sakes = [
     name: "Nigori Sakura Sake",
     description: "Sakura sake, (300ml)",
     price: 13,
-    image: "../static/items/sake/nigoriSakuraSake.jpg",
+    image: "/static/items/sake/nigoriSakuraSake.jpg",
     largeImage: "",
   },
   {
@@ -54,7 +54,7 @@ const sakes = [
     name: "Ginjo Sake",
     description: "cold sake, (300ml)",
     price: 14,
-    image: "../static/items/sake/ginjo.jpg",
+    image: "/static/items/sake/ginjo.jpg",
     largeImage: "",
   },
   {
@@ -62,7 +62,7 @@ const sakes = [
     name: "Hana Flavored Sake",
     description: "Pineapple or white peach.",
     price: 14,
-    image: "../static/items/sake/flavored-sake.jpg",
+    image: "/static/items/sake/flavored-sake.jpg",
     largeImage: "",
   },
   {
@@ -70,7 +70,7 @@ const sakes = [
     name: "Kikusui (Small)",
     description: "cold sake, (300ml)",
     price: 18,
-    image: "../static/items/sake/kikusui.jpg",
+    image: "/static/items/sake/kikusui.jpg",
     largeImage: "",
   },
   {
@@ -78,7 +78,7 @@ const sakes = [
     name: "Kikusui (Large)",
     description: "cold sake, (720ml)",
     price: 42,
-    image: "../static/items/sake/kikusui_large.jpg",
+    image: "/static/items/sake/kikusui_large.jpg",
     largeImage: "",
   },
 
@@ -87,7 +87,7 @@ const sakes = [
     name: "Tatenokawa 3 Peaks Sake",
     description: "cold sake, junmai-daiginjo (720ml)",
     price: 75,
-    image: "../static/items/sake/tatenokawa.jpg",
+    image: "/static/items/sake/tatenokawa.jpg",
     largeImage: "",
   },
   {
@@ -95,7 +95,7 @@ const sakes = [
     name: "Kizakura Yuzu Sake (330ml)",
     description: "cold sake, (330ml)",
     price: 11,
-    image: "../static/items/sake/yuzu.jpg",
+    image: "/static/items/sake/yuzu.jpg",
     largeImage: "",
   },
 ];

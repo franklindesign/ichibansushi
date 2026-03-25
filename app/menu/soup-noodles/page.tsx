@@ -1,6 +1,6 @@
 import Card from "@/app/components/card";
 
-const NoImage = "../static/items/NoImageNoodles.jpg";
+const NoImage = "/static/items/NoImageNoodles.jpg";
 
 const soupAndNoodles = [
   {
@@ -8,7 +8,7 @@ const soupAndNoodles = [
     name: "Tempura Udon",
     description: "shrimp tempura in noodle soup",
     price: 14.95,
-    image: "../static/items/soupnoodles/tempuraUdon.jpg",
+    image: "/static/items/soupnoodles/tempuraUdon.jpg",
     largeImage: "",
   },
   {
@@ -16,7 +16,7 @@ const soupAndNoodles = [
     name: "Chicken Udon",
     description: "chicken in noodle soup",
     price: 14.95,
-    image: "../static/items/soupnoodles/chickenUdon.jpg",
+    image: "/static/items/soupnoodles/chickenUdon.jpg",
     largeImage: "",
   },
   {
@@ -24,7 +24,7 @@ const soupAndNoodles = [
     name: "Beef Udon",
     description: "beef in noodle soup",
     price: 14.95,
-    image: "../static/items/soupnoodles/beefUdon.jpg",
+    image: "/static/items/soupnoodles/beefUdon.jpg",
     largeImage: "",
   },
   {
@@ -32,7 +32,7 @@ const soupAndNoodles = [
     name: "Seafood Udon",
     description: "various seafood in noodle soup",
     price: 14.95,
-    image: "../static/items/soupnoodles/seafoodUdon.jpg",
+    image: "/static/items/soupnoodles/seafoodUdon.jpg",
     largeImage: "",
   },
   {
@@ -40,7 +40,7 @@ const soupAndNoodles = [
     name: "Tonkotsu Ramen",
     description: "Choose regular or spicy flavor",
     price: 14.95,
-    image: "../static/items/soupnoodles/tonkotsuRamen.jpg",
+    image: "/static/items/soupnoodles/tonkotsuRamen.jpg",
     largeImage: "",
   },
   {
@@ -48,7 +48,7 @@ const soupAndNoodles = [
     name: "Miso Ramen",
     description: "Choose regular or spicy flavor",
     price: 14.95,
-    image: "../static/items/soupnoodles/misoRamen.jpg",
+    image: "/static/items/soupnoodles/misoRamen.jpg",
     largeImage: "",
   },
   {
@@ -56,7 +56,7 @@ const soupAndNoodles = [
     name: "Seafood Ramen",
     description: "shrimp, jumbo scallop, mussel, calamari, vegetables",
     price: 14.95,
-    image: "../static/items/soupnoodles/seafoodRamen.jpg",
+    image: "/static/items/soupnoodles/seafoodRamen.jpg",
     largeImage: "",
   },
 
@@ -65,7 +65,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Vegetables)",
     description: "pan fried Japanese thin noodles with vegetables",
     price: 12.95,
-    image: "../static/items/soupnoodles/vegetableYakisoba.jpg",
+    image: "/static/items/soupnoodles/vegetableYakisoba.jpg",
     largeImage: "",
   },
   {
@@ -73,7 +73,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Chicken)",
     description: "pan fried Japanese thin noodles with chicken",
     price: 15.95,
-    image: "../static/items/soupnoodles/chickenYakisoba.jpg",
+    image: "/static/items/soupnoodles/chickenYakisoba.jpg",
     largeImage: "",
   },
   {
@@ -81,7 +81,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Beef)",
     description: "pan fried Japanese thin noodles with beef",
     price: 15.95,
-    image: "../static/items/soupnoodles/beefYakisoba.jpg",
+    image: "/static/items/soupnoodles/beefYakisoba.jpg",
     largeImage: "",
   },
   {
@@ -89,7 +89,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Shrimp)",
     description: "pan fried Japanese thin noodles with shrimp",
     price: 15.95,
-    image: "../static/items/soupnoodles/shrimpYakisoba.jpg",
+    image: "/static/items/soupnoodles/shrimpYakisoba.jpg",
     largeImage: "",
   },
   {
@@ -97,7 +97,7 @@ const soupAndNoodles = [
     name: "Sukiyaki",
     description: "beef, vegetables, tofu, yam noodle, egg with rice",
     price: 19.95,
-    image: "../static/items/soupnoodles/sukiyaki.jpg",
+    image: "/static/items/soupnoodles/sukiyaki.jpg",
     largeImage: "",
   },
   {
@@ -106,7 +106,7 @@ const soupAndNoodles = [
     description:
       "Lobster tail, jumbo scallop, shrimp, green mussels, calamari and yam noodle.",
     price: 28,
-    image: "../static/items/soupnoodles/spicycajunseafood.jpg",
+    image: "/static/items/soupnoodles/spicycajunseafood.jpg",
     largeImage: "",
   },
   {
@@ -114,7 +114,7 @@ const soupAndNoodles = [
     name: "Udon Pasta",
     description: "shrimp, jumbo scallops, mussel and calamari.",
     price: 19.95,
-    image: "../static/items/soupnoodles/udonpasta.jpg",
+    image: "/static/items/soupnoodles/udonpasta.jpg",
     largeImage: "",
   },
   {
@@ -123,7 +123,7 @@ const soupAndNoodles = [
     description:
       "Choose udon or ramen, with 1 entree: sushi, sashimi, California cut roll or spicy tuna cut roll.",
     price: 20.95,
-    image: "../static/items/soupnoodles/noodlecombo.jpg",
+    image: "/static/items/soupnoodles/noodlecombo.jpg",
     largeImage: "",
   },
 ] 

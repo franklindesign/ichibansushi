@@ -110,7 +110,7 @@ export default function SearchComponent({
                       <Link
                         onClick={clearResults}
                         key={item.id}
-                        href={item.href}
+                        href={`${item.href + `#` + item.id}`}
                         className="flex items-center justify-between rounded-2xl px-4 py-3 transition hover:bg-slate-50"
                       >
                         <div className="p-2">

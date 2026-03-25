@@ -4,13 +4,13 @@ const image = "/static/heroes/hero.jpg";
 
 export default function Hero() {
   return (
-    <div className="relative h-[320px] max-h-[600px] w-full sm:h-[420px] md:h-[520px] lg:h-[600px]">
+    <div className="relative max-w-dvw">
       <Image
         alt="yelp banner"
         loading="lazy"
         src={image}
+        quality={75}
         fill
-        sizes="100vw"
         className="object-cover"
       />
 
