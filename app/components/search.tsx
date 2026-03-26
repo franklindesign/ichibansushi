@@ -64,7 +64,7 @@ export default function SearchComponent({
   };
 
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white dark:bg-black" role="searchBar">
       <header className=" bg-white/80 dark:bg-black backdrop-blur-xl">
         <nav className="mx-auto flex xs:w-2xl  max-w-2xl flex-col gap-4 px-4 py-2 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div className="relative w-full max-w-xl">

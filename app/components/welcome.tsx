@@ -12,11 +12,11 @@ const defaultMessages = [
 
 const defaultPhotos = [
   "../images/bg/2212395823.webp",
-  "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1563612116625-3012372fccce?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=1600&q=80",
+ "../images/bg/1.webp",
+ "../images/bg/2.webp",
+ "../images/bg/3.webp",
+ "../images/bg/4.webp",
+ "../images/bg/5.webp",
 ];
 
 type WelcomeProps = {
@@ -68,7 +68,7 @@ export default function Welcome({
   }, [photos, messages]);
 
   return (
-    <div className="z-0">
+    <div className="z-0" role="welcomeBanner">
       <div
         className="relative overflow-hidden bg-black transition-[background-image] duration-1000 ease-out"
         style={{

@@ -68,6 +68,7 @@ export default function IchibanHeader() {
         <div>
           <nav
             aria-label="Global"
+            role="navigation"
             className="flex items-center  justify-between p-6 lg:px-8 bg-white dark:bg-black"
           >
             <div className="flex lg:flex-1">
