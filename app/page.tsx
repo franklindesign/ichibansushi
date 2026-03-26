@@ -2,6 +2,7 @@
 import FAQAccordion from "./components/faq";
 import dynamic from "next/dynamic";
 import AmenitiesList from "./components/amenities";
+import PochaBanner from "./components/pochaBanner";
 
 const Hero = dynamic(() => import("./components/hero"), { ssr: false });
  
@@ -21,16 +22,15 @@ export default function Home() {
       <div>
         <DynamicHorizontalCards />
       </div>
-      <Hero />
-      <div>
-      </div>
+      <PochaBanner></PochaBanner>
+ 
       <div>
         <AmenitiesList></AmenitiesList>
       </div>
+      <Hero />
       <div>
         <FAQAccordion />
       </div>
-      
     </div>
   );
 }
