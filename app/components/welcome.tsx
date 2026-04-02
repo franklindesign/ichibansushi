@@ -68,7 +68,7 @@ export default function Welcome({
   }, [photos, messages]);
 
   return (
-    <div className="z-0" role="welcomeBanner">
+    <div role="welcomeBanner">
       <div
         className="relative overflow-hidden bg-black transition-[background-image] duration-1000 ease-out"
         style={{
