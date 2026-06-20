@@ -70,7 +70,7 @@ export default function Welcome({
   return (
     <div role="welcomeBanner">
       <div
-        className="relative overflow-hidden bg-black transition-[background-image] duration-1000 ease-out"
+        className="relative overflow-hidden z-0 bg-black transition-[background-image] duration-1000 ease-out"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(${photos[backgroundIndex]})`,
           backgroundPosition: "center",

@@ -64,7 +64,7 @@ export default function SearchComponent({
   };
 
   return (
-    <div className="bg-white dark:bg-black -top-40 z-10" role="searchBar">
+    <div className="bg-white dark:bg-black" role="searchBar">
       <header className=" bg-white/80 dark:bg-black backdrop-blur-xl">
         <nav className="mx-auto flex xs:w-2xl  max-w-2xl flex-col gap-4 px-4 py-2 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div className="relative w-full max-w-xl">
@@ -103,7 +103,7 @@ export default function SearchComponent({
             </label>
 
             {showResults ? (
-              <div className="absolute top-[calc(100%+0.75rem)] z-50 overflow-hidden rounded-2xl bg-white shadow-[0_24px_80px_-48px_rgba(15,23,42,0.5)]">
+              <div className="absolute -top-4 z-10 overflow-hidden rounded-2xl bg-white shadow-[0_24px_80px_-48px_rgba(15,23,42,0.5)]">
                 {visibleItems.length > 0 ? (
                   <div className="p-2">
                     {visibleItems.map((item) => (
