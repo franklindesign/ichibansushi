@@ -70,7 +70,7 @@ export default function Welcome({
   return (
     <div role="welcomeBanner">
       <div
-        className="relative overflow-hidden z-0 bg-black transition-[background-image] duration-1000 ease-out"
+        className="relative overflow-hidden -z-10 bg-black transition-[background-image] duration-1000 ease-out"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(${photos[backgroundIndex]})`,
           backgroundPosition: "center",
@@ -80,7 +80,7 @@ export default function Welcome({
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div
             aria-hidden="true"
-            className="absolute inset-x-0 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+            className="inset-x-0 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           >
             <div />
           </div>
@@ -104,7 +104,7 @@ export default function Welcome({
           </div>
           <div
             aria-hidden="true"
-            className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+            className="inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           >
             <div />
           </div>

@@ -103,7 +103,7 @@ export default function SearchComponent({
             </label>
 
             {showResults ? (
-              <div className="absolute -top-4 z-10 overflow-hidden rounded-2xl bg-white shadow-[0_24px_80px_-48px_rgba(15,23,42,0.5)]">
+              <div className="absolute -top-4 z-40 overflow-hidden rounded-2xl bg-white shadow-[0_24px_80px_-48px_rgba(15,23,42,0.5)]">
                 {visibleItems.length > 0 ? (
                   <div className="p-2">
                     {visibleItems.map((item) => (

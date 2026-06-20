@@ -32,7 +32,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="static -top-40 z-10">
+        <div>
           <IchibanHeader />
           <SearchComponent/>
         </div>
