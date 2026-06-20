@@ -7,7 +7,7 @@ const sushiCombo = [
     name: "Special Sushi Combo",
     description:
       "California roll or spicy tuna; 10 pieces sushi: tuna, salmon, albacore, white fish, or shrimр. Includes miso soup.",
-    price: 27.95,
+    price: 32.95,
     image: "/static/items/sushiCombo/specialSushi.jpg",
     largeImage: "",
   },
@@ -16,7 +16,7 @@ const sushiCombo = [
     name: "Special Sashimi Combo",
     description:
       "12 pieces of sashimi: tuna, salmon, albacore or yellowtail. Includes miso soup.",
-    price: 28.95,
+    price: 36.95,
     image: "/static/items/sushiCombo/specialSashimi.jpg",
     largeImage: "",
   },
@@ -25,7 +25,7 @@ const sushiCombo = [
     name: "Unagi Bowl",
     description:
       "Broiled eel and avocado on a bowl of sushi rice. Includes miso soup.",
-    price: 24.95,
+    price: 27.95,
     image: "/static/items/sushiCombo/unagiBowl.jpg",
     largeImage: "",
   },
@@ -34,7 +34,7 @@ const sushiCombo = [
     name: "Big Scallops Sashimi",
     description:
       "Multiple pieces of big scallops sashimi.",
-    price: 21.95,
+    price: 26.95,
     image: "/static/items/sushiCombo/bigScallops.jpg",
     largeImage: "",
   },
@@ -43,25 +43,34 @@ const sushiCombo = [
     name: "Chirashi",
     description:
       "Mixed sashimi on a bowl of sushi rice. Includes miso soup.",
-    price: 27.95,
+    price: 29.95,
     image: "/static/items/sushiCombo/chirashi.jpg",
     largeImage: "",
   },
    {
     id: 6,
+    name: "Chirashi with uni",
+    description:
+      "Mixed sashimi on a bowl of sushi rice. Includes miso soup.",
+    price: 37.95,
+    image: "/static/items/sushiCombo/chirashi.jpg",
+    largeImage: "",
+  },
+   {
+    id: 7,
     name: "Sashimi Donburi",
     description:
       "Korean-style poke with tuna and salmon on rice, spring mix, masago, seaweed salad, vegetables, hot sauce, sesame oil, and seed. Includes miso soup.",
-    price: 21.95,
+    price: 24.95,
     image: "/static/items/sushiCombo/sashimiDonburi.jpg",
     largeImage: "",
   },
     {
-    id: 7,
+    id: 8,
     name: "Ichiban Poke Bowl",
     description:
       "Tuna, salmon, scallop on rice, spring mix, masago, seaweed, avocado, and crabmeat. Includes miso soup.",
-    price: 21.95,
+    price: 24.95,
     image: "/static/items/sushiCombo/ichibanPokeBowl.jpg",
     largeImage: "",
   },

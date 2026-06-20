@@ -10,6 +10,7 @@ export default function Footer() {
         <p className="text-xs">
           Note: Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs increases your risk for foodborne illness. Photos are representative of the dish and may vary based on chef's preparation. Item prices are may subject to change.
         </p>
+        <p className="text-xs center">Current menu has been updated as of June 20, 2026.</p>
       </div>
         <div className="flex pb-5 gap-10">
           <div>

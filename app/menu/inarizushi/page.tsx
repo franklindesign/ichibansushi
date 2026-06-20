@@ -6,35 +6,35 @@ const inari = [
     name: "Beef Bulgogi",
     description:
       "Sweet tofu pocket with sushi rice, topped with savory marinated beef and sesame seeds.",
-    price: "5.95",
+    price: "6.95",
     image: "/static/items/inariSushi/bulgogi.jpg",
   },
   {
     id: 2,
     name: "Spicy Tuna",
     description: "Sweet tofu pocket with sushi rice, topped with spicy tuna and avocado.",
-    price: "5.95",
+    price: "6.95",
     image: "/static/items/inariSushi/spicytuna.jpg",
   },
   {
     id: 3,
     name: "Spicy Shrimp & Crab",
     description: "Sweet tofu pocket with sushi rice, topped with spicy shrimp & crab, green onions and masago.",
-    price: "5.95",
+    price: "6.95",
     image: "/static/items/inariSushi/spicyshrimpcrab.jpg",
   },
   {
     id: 4,
     name: "Grilled Eel",
     description: "Sweet tofu pocket with sushi rice, topped with grilled eel and sesame seeds.",
-    price: "5.95",
+    price: "7.95",
     image: "/static/items/inariSushi/grilledeel.jpg",
   },
   {
     id: 5,
     name: "Spicy Shrimp",
     description: "Sweet tofu pocket with sushi rice, topped with spicy shrimp.",
-    price: "5.95",
+    price: "6.95",
     image: "/static/items/inariSushi/spicyshrimp.jpg",
   },
   {
@@ -42,7 +42,7 @@ const inari = [
     name: "Spicy Salmon",
     description:
       "Sweet tofu pocket with sushi rice, topped with fresh spicy salmon, masago, and green onions.",
-    price: "5.95",
+    price: "7.95",
     image: "/static/items/inariSushi/spicysalmon.jpg",
   },
 ];

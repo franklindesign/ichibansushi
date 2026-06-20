@@ -18,16 +18,9 @@ const salads = [
     image: "/static/items/salad/cucumberSalad.jpg",
     largeImage: "",
   },
+ 
   {
     id: 3,
-    name: "Octopus Salad",
-    description: "octopus salad with green onions.",
-    price: 13.95,
-    image: "/static/items/salad/octopusSalad.jpg",
-    largeImage: "",
-  },
-  {
-    id: 4,
     name: "Seaweed Salad",
     description: "marinated seaweed with sesame oil and seed",
     price: "7.50",
@@ -35,24 +28,24 @@ const salads = [
     largeImage: "",
   },
   {
-    id: 5,
+    id: 4,
     name: "Salmon Skin Salad",
     description: "broiled salmon skin, gobo, bonito",
-    price: 13.95,
+    price: 15.95,
     image: "/static/items/salad/salmonSkinSalad.jpg",
     largeImage: "",
   },
 
   {
-    id: 6,
+    id: 5,
     name: "Sashimi Salad",
     description: "Green salad with 8 pieces of sashimi",
-    price: 20.95,
+    price: 24.95,
     image: "/static/items/salad/sashimiSalad.jpg",
     largeImage: "",
   },
   {
-    id: 7,
+    id: 6,
     name: "Spicy Tuna Salad",
     description:
       "spicy tuna, cucumber with gobo, masago, green onion, sesame oil and seed",

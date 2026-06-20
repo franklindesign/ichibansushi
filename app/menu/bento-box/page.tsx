@@ -65,7 +65,7 @@ export default function Bento() {
       </p>
       <div className="pt-4">
         <p>
-          <strong>$24.95</strong>
+          <strong>$27.95</strong>
         </p>
       </div>
     </div>
